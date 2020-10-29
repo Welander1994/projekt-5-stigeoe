@@ -44,8 +44,11 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    
+    text-align: left;   
+}
+
+header ul a {
+    padding-left: 5%;
 }
 
 .logo { 
@@ -56,6 +59,7 @@ header {
     line-height: 50px;
     font-size: 24px;
     float: left;
+    text-align: center;
 }
 
 .logo a {
@@ -68,12 +72,12 @@ header {
 header nav ul {
     margin: 0;
     padding-top: 20%;
-    padding-left: 0%;
+    padding-left: 0;
     display: block;
     
 }
 
-header nav ul li ul {
+header nav ul li ul  {
     margin: 0;
     padding: 0;
     display: block;
@@ -85,7 +89,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     height: 50px;
     line-height: 50px;
     color: var(--white);
@@ -93,21 +97,34 @@ header nav ul li a {
     display: block;
     text-transform: uppercase;
     font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
+header nav ul li a i {
+    padding-right: 10%;
+
+}
+
 
 header nav ul li ul li a {
     padding-top: 0;
     font-size: 1rem;
     font-weight: lighter;
+
 }
+
+
+
+
 
 .undermenu li {
     transition: all .5s ease;
     opacity: 0;
     height: 0;
     overflow: hidden;
-    color: white;
+    color: var(--white);
     -webkit-transition: all 1s -0.25s ease-out;
     -moz-transition: all 1s -0.25s ease-out;
       -o-transition: all 1s -0.25s ease-out;
@@ -116,6 +133,7 @@ header nav ul li ul li a {
 }
 
 .undermenu-active li{
+    background-color: var(--dark-green);
     padding: 0; 
     margin: 0;
     opacity: 1;
