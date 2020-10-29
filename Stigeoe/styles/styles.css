@@ -44,7 +44,8 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    text-align: left;   
+    text-align: left; 
+     
 }
 
 header ul a {
@@ -172,11 +173,22 @@ header nav ul li a.active {
 }
 
 .footer {
-    padding: 2% 0% 2% 12%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     bottom: 0;
-    left: 10%;
-    width: 88%;
-    background-color: var(--light-yellow);
+    left: 0%;
+    width: 10%;
+    background-color: var(--light-green);
+   
+}
+
+.footer a {
+    font-size: 2rem;
+    text-decoration: none;
+    padding-bottom: 10%;
+    color: var(--white);
 }
 
 @media (max-width: 991px) {
@@ -245,13 +257,17 @@ header .logo {
 
 
 
-    footer {
-        position: absolute;
+    .footer {
+        position: relative;
         bottom: 0;
         left: 0;
         height: 10%;
         width: 100%;
         background-color: var(--light-yellow);
+    }
+
+    .footer a {
+        padding-top: 5%;
     }
 
 }
