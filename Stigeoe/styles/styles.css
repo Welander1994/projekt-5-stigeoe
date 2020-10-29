@@ -199,6 +199,10 @@ header nav ul li a.active,
     color: var(--white);
 }
 
+.footer a:hover {
+    color: var(--dark-green);
+}
+
 .event {
     padding-top: 2%;
     border-top: 2px solid  var(--dark-yellow);
