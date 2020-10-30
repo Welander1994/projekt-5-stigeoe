@@ -98,7 +98,7 @@ header nav ul li a {
     color: var(--white);
     text-decoration: none;
     display: block;
-    font-weight: bolder;
+    font-weight: 400;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,7 +131,7 @@ header nav ul li ul li a {
 }
 
 .undermenu-active li{
-    padding: 0; 
+    padding-left: 5%; 
     margin: 0;
     opacity: 1;
     height: 40px;
@@ -170,7 +170,7 @@ header nav ul li a.active,
 .content h1 {
     font-family: var(--h1);
     font-size: 4rem;
-    padding-left: 2%;
+    padding-left: 5%;
 }
 
 .cover-img {
@@ -194,6 +194,7 @@ header nav ul li a.active,
     left: 0%;
     width: 15%;
     background-color: var(--light-green);
+    z-index:100;
    
 }
 
@@ -209,10 +210,10 @@ header nav ul li a.active,
 }
 
 .event {
-    padding-top: 2%;
-    border-top: 2px solid  var(--dark-yellow);
+    padding-top: 5%;
+    border-top: 2px solid  var(--light-yellow);
     max-height: 500px;
-    margin: 2%;
+    margin: 5%;
 }
 
 .event h2 {
@@ -349,12 +350,12 @@ header .logo {
     .content h1 {
         font-family: var(--h1);
         font-size: 1.7rem;
-        padding-left: 2%;
+        padding-left: 5%;
     }
 
     .event {
         padding-top: 6%;
-        border-top: 2px solid  var(--dark-yellow);
+        border-top: 2px solid  var(--light-yellow);
         max-height: 500px;
         margin: 2%;
         padding-bottom: 3%;
