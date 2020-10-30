@@ -39,7 +39,7 @@ header {
     top: 0;
     left: 0;
     background: var(--light-green);
-    width: 10%;
+    width: 15%;
     height: 100%;
     box-sizing: border-box;
     display: flex;
@@ -161,7 +161,7 @@ header nav ul li a.active,
 }
 
 .content {
-    padding-left: 10%;
+    padding-left: 15%;
     color: var(--black);
     font-family: helvetica;
 }
@@ -177,6 +177,9 @@ header nav ul li a.active,
     background-image: url(/Stigeoe/img/cover.jpg);
     background-position: 50% 65%;
     background-size: cover;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -187,7 +190,7 @@ header nav ul li a.active,
     align-items: center;
     bottom: 0;
     left: 0%;
-    width: 10%;
+    width: 15%;
     background-color: var(--light-green);
    
 }
@@ -396,12 +399,24 @@ header .logo {
     .footer a {
         padding: 5% 0 5% 0;
     }
-
+}
 /*Slider ord - Banner*/
 #ordSlider{
     opacity:0;
     transition:opacity 1.0s linear 0s;
 }
-.content.cover-img h2{
+ h3{
     font-family: 'Rock Salt';
+    color: white;
+    font-size: 2rem;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@media (max-width: 500px){
+    h3{
+        font-size: 1rem;
+    }
 }
