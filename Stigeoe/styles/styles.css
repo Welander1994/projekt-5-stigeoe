@@ -217,10 +217,16 @@ header nav ul li a.active,
     font-size: 2.5rem;
 }
 
-.event img {
-    max-height: 500px;
+.event-img {
+    background-image: url(/Stigeoe/img/bær.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+   
     position: relative;
-    z-index: -999;
+    padding-bottom: 2%;
+   
 }
 
 .indhold {
@@ -355,12 +361,16 @@ header .logo {
         font-size: 2rem;
     }
     
-    .event img {
+    .event-img {
+        background-image: url(/Stigeoe/img/bær.jpg);
+        background-position: center;
+        background-size: cover;
         order: -1;
-        max-height: 200px;
+        height: 500px;
+        width: 100%;
         position: relative;
         padding-bottom: 2%;
-       
+        z-index: -999;
     }
     
     .indhold {
