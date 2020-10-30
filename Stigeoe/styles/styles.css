@@ -30,7 +30,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: helvetica;
+    font-family: 'helvetica neue', sans-serif;
     background-color: var(--white);
 }
 
@@ -45,6 +45,8 @@ header {
     display: flex;
     flex-direction: column;
     text-align: left; 
+    font-family: 'helvetica neue', sans-serif;
+    z-index: 7;
      
 }
 
@@ -96,11 +98,11 @@ header nav ul li a {
     color: var(--white);
     text-decoration: none;
     display: block;
-    text-transform: uppercase;
     font-weight: bolder;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'helvetica neue', sans-serif;
     
 }
 header nav ul li a i {
@@ -133,7 +135,6 @@ header nav ul li ul li a {
     margin: 0;
     opacity: 1;
     height: 40px;
-    text-transform: lowercase;
     -webkit-transition: all 1s -0.25s ease-out;
     -moz-transition: all 1s -0.25s ease-out;
       -o-transition: all 1s -0.25s ease-out;
@@ -163,7 +164,7 @@ header nav ul li a.active,
 .content {
     padding-left: 15%;
     color: var(--black);
-    font-family: helvetica;
+    font-family: 'helvetica neue', sans-serif;
 }
 
 .content h1 {
@@ -173,13 +174,14 @@ header nav ul li a.active,
 }
 
 .cover-img {
-    height: 500px;
+    height: 300px;
     background-image: url(/Stigeoe/img/cover.jpg);
     background-position: 50% 65%;
     background-size: cover;
     display:flex ;
     justify-content: center;
     align-items: center;
+    z-index: 6;
 }
 
 
@@ -276,7 +278,7 @@ header nav ul li a.active,
     body {
         margin: 0;
         padding: 0;
-        font-family: sans-serif;
+        font-family: 'helvetica neue', sans-serif;
     }
 
     .content {
@@ -287,6 +289,7 @@ header nav ul li a.active,
         padding: 0 20px;
         width: 100%;
         height: 6.5%;
+        
     }
  
 header .logo {
@@ -404,6 +407,7 @@ header .logo {
 #ordSlider{
     opacity:0;
     transition:opacity 1.0s linear 0s;
+    z-index: 1;
 }
  h3{
     font-family: 'Rock Salt';
@@ -413,6 +417,7 @@ header .logo {
     justify-content: center;
     align-items: center;
     margin: 0;
+    z-index: 6;
 }
 
 @media (max-width: 500px){

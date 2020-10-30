@@ -25,6 +25,7 @@ function ordSliderSlide() {
     ordSlider_elem.innerHTML = ordSlider_array[ordSlider_i];
     ordSlider_elem.style.opacity = 1;
     setTimeout('ordSliderNext()', 2000);
+
 }
 
 ordSlider_elem = document.getElementById("ordSlider"); ordSliderSlide(); 
