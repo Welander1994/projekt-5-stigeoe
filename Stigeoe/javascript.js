@@ -28,4 +28,4 @@ function ordSliderSlide() {
 
 }
 
-ordSlider_elem = document.getElementById("ordSlider"); ordSliderSlide(); 
+ordSlider_elem = document.getElementById("ordSlider"); ordSliderSlide();

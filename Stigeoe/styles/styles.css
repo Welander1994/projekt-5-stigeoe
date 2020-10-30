@@ -406,6 +406,7 @@ header .logo {
 /*Slider ord - Banner*/
 #ordSlider{
     opacity:0;
+    -webkit-transition:opacity 1.0s linear 0s;
     transition:opacity 1.0s linear 0s;
     z-index: 1;
 }
