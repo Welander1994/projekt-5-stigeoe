@@ -10,8 +10,9 @@ function dropdown() {
 
 //banner ord slide animation
 let ordSlider_i = 0;
-let ordSlider_array = ["aktiviteternes ø", "familiens ø", "børnenes ø", "den aktives ø", "en tumleplads"];
+let ordSlider_array = [" aktiviteternes ø", " familiens ø", " børnenes ø", " den aktives ø", " en tumleplads"];
 let ordSlider_elem;
+let space = "&nbsp";
 
 function ordSliderNext() {
     ordSlider_i++;
@@ -22,7 +23,7 @@ function ordSliderNext() {
     setTimeout('ordSliderSlide()', 1000);
 }
 function ordSliderSlide() {
-    ordSlider_elem.innerHTML = ordSlider_array[ordSlider_i];
+    ordSlider_elem.innerHTML = space + ordSlider_array[ordSlider_i];
     ordSlider_elem.style.opacity = 1;
     setTimeout('ordSliderNext()', 2000);
 
