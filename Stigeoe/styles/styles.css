@@ -92,9 +92,16 @@ header ul a {
     font-size: 24px;
     float: left;
     text-align: center;
+    
 }
 
-.logo a {
+.logo li  {
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--white);
+}
+
+.logo li a {
     text-decoration: none;
     color: var(--white);
 }
@@ -139,9 +146,12 @@ header nav ul li a i {
 
 }
 
+header nav ul ul {
+    padding-top: 2%;
+}
 
-header nav ul li ul li a {
-    padding-top: 0;
+header nav ul ul li a {
+   
     font-size: 1rem;
     font-weight: lighter;
 }
@@ -313,7 +323,9 @@ header nav ul li a.active,
     body {
         margin: 0;
         padding: 0;
+        max-width: 375px;
         font-family: 'helvetica neue', sans-serif;
+
     }
 
     .content {
@@ -321,8 +333,8 @@ header nav ul li a.active,
         padding-left: 0%;
     }
     header {
-        padding: 0 20px;
-        width: 100%;
+    
+        width: 375px;
         height: 6.5%;
         
     }
@@ -366,16 +378,16 @@ header .logo {
     header nav ul li a  {
         border-top: 2px solid  var(--white);
         font-size: 1.5rem;
-        padding: 5%;
+        padding: 2%;
     
     }
-    header nav ul li ul li a {
+    header nav ul ul li a {
         border-top: 0px solid  var(--white);
-    
+        width: 100%;
     }
 
     .cover-img {
-        width: 404px;
+      
         height: 200px;
    
         
@@ -389,32 +401,33 @@ header .logo {
     .content h1 {
         font-family: var(--h1);
         font-size: 1.7rem;
-        padding-left: 5%;
+        padding-left: 2%;
     }
 
     .event {
         padding-top: 6%;
         border-top: 2px solid  var(--light-yellow);
         max-height: 500px;
-        margin: 2%;
         padding-bottom: 3%;
-        width: 100%;
+
     }
     
     .event h2 {
         max-width: 375px;
         padding: 0;
         margin: 0;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .event-img {
+        padding: 0;
+        margin: 0;
         background-image: url(/Stigeoe/img/bær.jpg);
         background-position: center;
         background-size: cover;
         order: -1;
         height: 500px;
-        width: 94%;
+        width: 100%;
         position: relative;
         padding-bottom: 2%;
         z-index: -999;
@@ -436,7 +449,7 @@ header .logo {
         bottom: 0;
         left: 0;
         height: 10%;
-        width: 404px;
+        width: 100%;
         background-color: var(--light-yellow);
     }
 

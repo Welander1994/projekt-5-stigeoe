@@ -15,26 +15,24 @@
 
 <body>
     <header>
-        <div class="logo"><a href="#" class="active">Stige Ø</a></div>
+        <div class="logo">
+            <li><a href="/Stigeoe/forside.html" class="active" onclick="transitionForside()">Stige Ø</a></li>
+        </div>
 
         <nav id="toggle1">
             <ul>
-                <li><a href="#">Aktiviteter</a></li>
-                <li><a href="/Stigeoe/formular.html">Booking</a></li>
-                <li><a href="#">Kontakt</a></li>
-                <li><a href="#">Galleri</a></li>
+                <li><a href="/Stigeoe/forside.html" onclick="transitionForside()">Forside</a></li>
+                <li><a href="/Stigeoe/formular.html" onclick="transitionBooking()">Booking</a></li>
+                <li><a href="/Stigeoe/kontakt.html" onclick="transitionKontakt()">Kontakt</a></li>
+                <li><a href="#" onclick="transitionGalleri()">Galleri</a></li>
                 <li><a href="https://www.google.com/maps/search/stige+%C3%B8/@55.443659,10.4173867,15z/data=!3m1!4b1"
                         target="_blank">Kort</a></li>
+                <li><a href="/Stigeoe/historie.html" onclick="transitionHistorie()">historie</a></li>
+                <li><a href="/Stigeoe/natur.html" onclick="transitionNatur()">natur</a></li>
+                <li><a href="/Stigeoe/fremtid.html" onclick="transitionFremtid()">fremtid</a></li>
 
-                <li><a href="#" onclick="dropdown()">Om <i class="fas fa-angle-down"></i></a>
 
-                    <ul id="toggle2" class="undermenu">
-                        <li><a href="#">Øens historie</a></li>
-                        <li><a href="#">Øens natur</a></li>
-                        <li><a href="#">Øens fremtid</a></li>
-                    </ul>
 
-                </li>
             </ul>
         </nav>
         <div class="menu-toggle" onclick="burgerMenu()"><i class="fas fa-bars"></i></div>
@@ -113,8 +111,8 @@
 
     </div>
     <div class="footer">
-        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
 
 </body>
