@@ -1,5 +1,5 @@
 .harmonika {
-   background-color: var(--light-green); 
+   background-color: var(--light-yellow); 
    color: black;
    cursor: pointer;
    padding: 18px;
@@ -12,8 +12,20 @@
 }
 
 .activeharmonika, .harmonika:hover {
-    background-color: var(--dark-green);
+    background-color: var(--dark-yellow);
 }
+
+.harmonika:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: var(--dark-green);
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .activeharmonika:after {
+    content: "\2796"; 
+  }
 
 .harmonikatekstfelt {
     padding: 0 18px;
@@ -22,5 +34,14 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+.harmonikaboks {
+    max-height: 1000px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* CREDIT TIL W3schooooooolz <3 */
+
 
 
