@@ -1,3 +1,9 @@
+
+/* fjernet understreg ved klik af logo i hjørnet, Farven skifter stadig */
+.active{
+	text-decoration: none;	
+}
+
 .harmonika {
    background-color: var(--light-yellow); 
    color: black;
