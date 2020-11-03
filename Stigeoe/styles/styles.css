@@ -214,7 +214,7 @@ header nav ul li a.active,
 }
 
 .cover-img h3 {
-  position: fixed;
+  position: absolute;
   left: 45%;
 }
 
@@ -243,7 +243,7 @@ header nav ul li a.active,
 }
 
 .event {
-    padding-top: 5%;
+    padding-top: 2%;
     border-top: 2px solid  var(--light-yellow);
     max-height: 500px;
     margin: 5%;
@@ -262,9 +262,8 @@ header nav ul li a.active,
     background-size: cover;
     height: 400px;
     width: 50%;
-   
     position: relative;
-    padding-bottom: 2%;
+    padding: 5%;
    
 }
 
@@ -277,6 +276,8 @@ header nav ul li a.active,
 .tesk {
     width: 50%;
 }
+
+
 .button {
     background-color: var(--white);
     border: none;
@@ -374,12 +375,17 @@ header .logo {
     }
 
     .cover-img {
+        width: 404px;
         height: 200px;
-        width: auto;
-        background-image: url(/Stigeoe/img/cover.jpg);
-        background-size: cover;
+   
+        
     }
 
+    .cover-img h3 {
+        font-size: 1rem;
+        position: absolute;
+        left: 25%;
+      }
     .content h1 {
         font-family: var(--h1);
         font-size: 1.7rem;
@@ -392,6 +398,7 @@ header .logo {
         max-height: 500px;
         margin: 2%;
         padding-bottom: 3%;
+        width: 100%;
     }
     
     .event h2 {
@@ -407,7 +414,7 @@ header .logo {
         background-size: cover;
         order: -1;
         height: 500px;
-        width: 100%;
+        width: 94%;
         position: relative;
         padding-bottom: 2%;
         z-index: -999;
@@ -429,7 +436,7 @@ header .logo {
         bottom: 0;
         left: 0;
         height: 10%;
-        width: 100%;
+        width: 404px;
         background-color: var(--light-yellow);
     }
 
