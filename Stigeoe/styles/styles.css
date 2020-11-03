@@ -34,6 +34,35 @@ body {
     background-color: var(--white);
 }
 
+.transition-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 120%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 101;
+    background-color: #262626;
+    pointer-events: none;
+    transition: 0.7s ease-in-out;
+}
+
+.transition-1 h1 {
+    font-size: 5rem;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.transition-1.is-active {
+    left: 0;
+    pointer-events: all;
+}
+
+
 header {
     position: fixed;
     top: 0;
