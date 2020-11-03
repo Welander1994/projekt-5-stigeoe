@@ -476,7 +476,8 @@ header .logo {
         margin: 0;
     }
 
-    #index-gallery{
+    .index-gallery{
+        margin: 2vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -488,7 +489,7 @@ header .logo {
     ;
     }
 
-    #index-gallery .gallery-img{
+    .index-gallery .gallery-img{
         width: 100%;
         height: 300px;
         background-repeat: no-repeat;
@@ -498,38 +499,39 @@ header .logo {
     }
     
     /*Billederne styling*/
-    #index-gallery h1{
+    .index-gallery h1{
         grid-area: gallery-h1;
+        margin-bottom: 0;
     }
 
-    #index-gallery .img-1{
+    .index-gallery .img-1{
         grid-area: img-1;
-        background-image: url("img/img-1.jpg");
+        background-image: url("../img/img-1.jpg");
     }
-    #index-gallery .img-2{
+    .index-gallery .img-2{
         grid-area: img-2;
-        background-image: url("img/img-2.jpg");
+        background-image: url("../img/img-2.jpg");
     }
-    #index-gallery .img-3{
+    .index-gallery .img-3{
         grid-area: img-3;
-        background-image: url("img/img-3.jpg");
+        background-image: url("../img/img-3.jpg");
         height: 610px;
     }
-    #index-gallery .img-4{
+    .index-gallery .img-4{
         grid-area: img-4;
-        background-image: url("img/img-4.jpg");
+        background-image: url("../img/img-4.jpg");
     }
-    #index-gallery .img-5{
+    .index-gallery .img-5{
         grid-area: img-5;
-        background-image: url("img/img-5.jpg");
+        background-image: url("../img/img-5.jpg");
     }
-    #index-gallery .img-6{
+    .index-gallery .img-6{
         grid-area: img-6;
-        background-image: url("img/img-6.jpg");
+        background-image: url("../img/img-6.jpg");
     }
-    #index-gallery .img-7{
+    .index-gallery .img-7{
         grid-area: img-7;
-        background-image: url("img/img-7.jpg");
+        background-image: url("../img/img-7.jpg");
     }
 
     /* Galleri billede title*/
