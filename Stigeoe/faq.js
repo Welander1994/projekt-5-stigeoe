@@ -13,3 +13,4 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 
+/* CREDIT TIL W3schooooooolz <3 */
