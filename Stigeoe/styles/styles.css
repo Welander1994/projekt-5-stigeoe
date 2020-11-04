@@ -303,10 +303,6 @@ header nav ul li a.active,
     border: 2px solid var(--light-green);
   }
 
-  #button {
-      text-align: center;
-  }
-
   .button:hover {
     background-color: var(--light-green);
     border: none;
@@ -606,7 +602,7 @@ header .logo {
     .img-window{
         width: 100vw;
         height: 100vh;
-        background-color:rgba(0, 0, 0, 0.8) ;
+        background-color:rgba(0, 0, 0, 1) ;
         position: fixed;
         top: 0;
         left: 0;
@@ -614,12 +610,13 @@ header .logo {
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 10000;
+        z-index: 100;
     }
         /*Popup billede */
         .img-window img{
             max-width: 80vw;
             max-height: 80vh;
+            z-index: 200;
         }
 
 
