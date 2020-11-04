@@ -318,23 +318,23 @@ header nav ul li a.active,
     border: 2px solid var(--light-green);
   }
 
-@media (max-width: 991px) {
+@media (max-width: 890px) {
 
     body {
         margin: 0;
         padding: 0;
-        max-width: 375px;
+       
         font-family: 'helvetica neue', sans-serif;
 
     }
 
     .content {
-        padding-top: 12%;
+        padding-top: 6%;
         padding-left: 0%;
     }
     header {
     
-        width: 375px;
+        width: 100%;
         height: 6.5%;
         
     }
@@ -396,7 +396,7 @@ header .logo {
     .cover-img h3 {
         font-size: 1rem;
         position: absolute;
-        left: 25%;
+        left: 40%;
       }
     .content h1 {
         font-family: var(--h1);
@@ -456,6 +456,16 @@ header .logo {
     .footer a {
         padding: 5% 0 5% 0;
     }
+
+    .index-gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "gallery-h1 gallery-h1 gallery-h1"
+        "img-1 img-2 img-3 "
+        "img-4 img-5 img-3"
+        "img-6 img-7"
+        ;
+     }
 }
 /*Slider ord - Banner*/
 #ordSlider{
@@ -479,8 +489,26 @@ header .logo {
     h3{
         font-size: 1rem;
     }
-}
 
+    .cover-img h3 {
+        font-size: 1rem;
+        position: absolute;
+        left: 25%;
+      } 
+
+      .index-gallery{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "gallery-h1 gallery-h1"
+        "img-1 img-2"
+        "img-3 img-4"
+        "img-5 img-6"
+        "img-3 img-7"
+    ;
+    }
+
+      
+}
 
 
 /*Galleri siden*/
@@ -491,14 +519,14 @@ header .logo {
 
     .index-gallery{
         margin: 2vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-gap: 10px;
-    grid-template-areas: 
-    "gallery-h1 gallery-h1 gallery-h1 gallery-h1"
-    "img-1 img-2 img-3 img-4"
-    "img-5 img-6 img-3 img-7"
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        grid-template-areas: 
+        "gallery-h1 gallery-h1 gallery-h1 gallery-h1"
+        "img-1 img-2 img-3 img-4"
+        "img-5 img-6 img-3 img-7"
     ;
     }
 
