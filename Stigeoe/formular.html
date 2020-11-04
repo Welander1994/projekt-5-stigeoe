@@ -3,144 +3,146 @@
 <meta name="viewport" content="width=device-width , initial-scale=1.0">
 
 <head>
-    <meta charset="UFT-8">
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="javascript.js" defer></script>
-    <script src="/Stigeoe/transition.js" defer></script>
-    <script src="https://kit.fontawesome.com/9d426a8111.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="/Stigeoe/img/stigeoe-icon.png" alt="icon af stige oe">
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-    <title>Stige Ø</title>
-    <link rel="stylesheet" href="formular.css">
-    <script src="formular.js"></script>
+  <meta charset="UFT-8">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="javascript.js" defer></script>
+  <script src="/Stigeoe/transition.js" defer></script>
+  <script src="https://kit.fontawesome.com/9d426a8111.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="/Stigeoe/img/stigeoe-icon.png" alt="icon af stige oe">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <title>Stige Ø</title>
+  <link rel="stylesheet" href="formular.css">
+  <script src="formular.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <li><a href="/Stigeoe/forside.html" class="active" onclick="transitionForside()">Stige Ø</a></li>
-        </div>
-
-        <nav id="toggle1">
-            <ul>
-                <li><a href="/Stigeoe/forside.html" onclick="transitionForside()">Forside</a></li>
-                <li><a href="/Stigeoe/formular.html" onclick="transitionBooking()">Booking</a></li>
-                <li><a href="/Stigeoe/kontakt.html" onclick="transitionKontakt()">Kontakt</a></li>
-                <li><a href="#" onclick="transitionGalleri()">Galleri</a></li>
-                <li><a href="https://www.google.com/maps/search/stige+%C3%B8/@55.443659,10.4173867,15z/data=!3m1!4b1"
-                        target="_blank">Kort</a></li>
-                <li><a href="/Stigeoe/historie.html" onclick="transitionHistorie()">historie</a></li>
-                <li><a href="/Stigeoe/natur.html" onclick="transitionNatur()">natur</a></li>
-                <li><a href="/Stigeoe/fremtid.html" onclick="transitionFremtid()">fremtid</a></li>
-
-
-
-            </ul>
-        </nav>
-        <div class="menu-toggle" onclick="burgerMenu()"><i class="fas fa-bars"></i></div>
-    </header>
-
-    <div class="content">
-
-        <div class="transition transition-1 is-active">
-            <h1 id="transitionText">Booking</h1>
-        </div>
-
-      
-
-
-            <h1>Booking</h1>
-
-       
-<h2>hej</h2>
-
-        <div class="container">
-            <div class="form">
-              <div class="contact-info">
-      
-              <div class="contact-form">
-                <span class="circle one"></span>
-                <span class="circle two"></span>
-      
-                <form >
-                  <h3 class="title">Book shelterpladsen her</h3>
-                  <p>Vi bestræber os på at svarer på beskeder inden for 2-5 hverdage</p>
-                  <div class="input-container">
-                    <input type="text" name="name" class="input" />
-                    <label for="">Navn</label>
-                    <span>Navn</span>
-                  </div>
-                  <div class="input-container">
-                    <input type="email" name="email" class="input" />
-                    <label for="">E-mail</label>
-                    <span>E-mail</span>
-                  </div>
-                  <div class="input-container">
-                    <input type="tel" name="phone" class="input" />
-                    <label for="">Telefon nr.</label>
-                    <span>Telefon nr.</span>
-                  </div>
-                  <div class="input-container textarea">
-                    <textarea name="message" class="input"></textarea>
-                    <label for="">Besked</label>
-                    <span>Besked</span>
-                  </div>
-              
-
-                  <div class="sendButton">
-                  <button type="button" class="btn" onclick="sentMessage()">Send</button>
-                  <p id="sendt"> &nbsp;</p>
-                </div>
-                </form>
-              </div>
-            </div>
-          </div>
-         
-            <div class="form">
-              <div class="contact-info">
-      
-              <div class="contact-form">
-                <span class="circle one"></span>
-                <span class="circle two"></span>
-      
-                <form>
-                  <h3 class="title">Book naturguide her</h3>
-                  <p>Vi bestræber os på at svarer på beskeder inden for 2-5 hverdage</p>
-                  <div class="input-container">
-                    <input type="text" name="name" class="input" />
-                    <label for="">Navn</label>
-                    <span>Navn</span>
-                  </div>
-                  <div class="input-container">
-                    <input type="email" name="email" class="input" />
-                    <label for="">E-mail</label>
-                    <span>E-mail</span>
-                  </div>
-                  <div class="input-container">
-                    <input type="tel" name="phone" class="input" />
-                    <label for="">Telefon nr.</label>
-                    <span>Telefon nr.</span>
-                  </div>
-                  <div class="input-container textarea">
-                    <textarea name="message" class="input"></textarea>
-                    <label for="">Besked</label>
-                    <span>Besked</span>
-                  </div>
-                  <input type="submit" value="Send" class="btn"  />
-                </form>
-              </div>
-            </div>
-         
-      
-          
-
-
-
+  <header>
+    <div class="logo">
+      <li><a href="/Stigeoe/forside.html" class="active" onclick="transitionForside()">Stige Ø</a></li>
     </div>
-    <div class="footer">
+
+    <nav id="toggle1">
+      <ul>
+        <li><a href="/Stigeoe/forside.html" onclick="transitionForside()">Forside</a></li>
+        <li><a href="/Stigeoe/formular.html" onclick="transitionBooking()">Booking</a></li>
+        <li><a href="/Stigeoe/kontakt.html" onclick="transitionKontakt()">Kontakt</a></li>
+        <li><a href="#" onclick="transitionGalleri()">Galleri</a></li>
+        <li><a href="https://www.google.com/maps/search/stige+%C3%B8/@55.443659,10.4173867,15z/data=!3m1!4b1"
+            target="_blank">Kort</a></li>
+        <li><a href="/Stigeoe/historie.html" onclick="transitionHistorie()">Øens historie</a></li>
+        <li><a href="/Stigeoe/natur.html" onclick="transitionNatur()">Øens natur</a></li>
+        <li><a href="/Stigeoe/fremtid.html" onclick="transitionFremtid()">Øens fremtid</a></li>
+        <li><a href="/Stigeoe/faq.html" onclick="transitionFAQ()">FAQ</a></li>
+
+
+      </ul>
+    </nav>
+    <div class="menu-toggle" onclick="burgerMenu()"><i class="fas fa-bars"></i></div>
+  </header>
+
+  <div class="content">
+
+    <div class="transition transition-1 is-active">
+      <h1 id="transitionText">Booking</h1>
+    </div>
+
+
+
+
+    <h1>Booking</h1>
+
+    <div class="standardtekstfelt">
+      <p>Tekst om booooking
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form>
+              <h3 class="title">Book shelterpladsen her</h3>
+              <p>Vi bestræber os på at svarer på beskeder inden for 2-5 hverdage</p>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Navn</label>
+                <span>Navn</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">E-mail</label>
+                <span>E-mail</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Telefon nr.</label>
+                <span>Telefon nr.</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Besked</label>
+                <span>Besked</span>
+              </div>
+
+
+              <div class="sendButton">
+                <button type="button" class="btn" onclick="sentMessage()">Send</button>
+                <p id="sendt"> &nbsp;</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="form">
+        <div class="contact-info">
+
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form>
+              <h3 class="title">Book naturguide her</h3>
+              <p>Vi bestræber os på at svarer på beskeder inden for 2-5 hverdage</p>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Navn</label>
+                <span>Navn</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">E-mail</label>
+                <span>E-mail</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Telefon nr.</label>
+                <span>Telefon nr.</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Besked</label>
+                <span>Besked</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+      <div class="footer">
         <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-    </div>
+      </div>
 
 </body>
 
