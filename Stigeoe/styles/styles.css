@@ -688,3 +688,8 @@ header .logo {
     margin: 5%;
     margin-left: 0%;
 }
+
+.imgimgimgstort {
+    display: flex;
+    width: 100%;
+}
