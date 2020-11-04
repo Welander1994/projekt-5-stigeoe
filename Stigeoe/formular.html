@@ -11,6 +11,8 @@
     <link rel="icon" href="/Stigeoe/img/stigeoe-icon.png" alt="icon af stige oe">
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <title>Stige Ø</title>
+    <link rel="stylesheet" href="formular.css">
+    <script src="formular.js"></script>
 </head>
 
 <body>
@@ -44,17 +46,93 @@
             <h1 id="transitionText">Booking</h1>
         </div>
 
-        <div class="cover-img">
-            <h3>Stige ø = <span id="ordSlider"></span> </h3>
-        </div>
+      
 
-        <div class="content">
 
             <h1>Booking</h1>
 
-            <h2>Book shelterplads!</h2>
-            <input type="text">
-        </div>
+       
+<h2>hej</h2>
+
+        <div class="container">
+            <div class="form">
+              <div class="contact-info">
+      
+              <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+      
+                <form >
+                  <h3 class="title">Book shelterpladsen her</h3>
+                  <p>Vi bestræber os på at svarer på beskeder inden for 2-5 hverdage</p>
+                  <div class="input-container">
+                    <input type="text" name="name" class="input" />
+                    <label for="">Navn</label>
+                    <span>Navn</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="input" />
+                    <label for="">E-mail</label>
+                    <span>E-mail</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="input" />
+                    <label for="">Telefon nr.</label>
+                    <span>Telefon nr.</span>
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Besked</label>
+                    <span>Besked</span>
+                  </div>
+              
+
+                  <div class="sendButton">
+                  <button type="button" class="btn" onclick="sentMessage()">Send</button>
+                  <p id="sendt"> &nbsp;</p>
+                </div>
+                </form>
+              </div>
+            </div>
+          </div>
+         
+            <div class="form">
+              <div class="contact-info">
+      
+              <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+      
+                <form>
+                  <h3 class="title">Book naturguide her</h3>
+                  <p>Vi bestræber os på at svarer på beskeder inden for 2-5 hverdage</p>
+                  <div class="input-container">
+                    <input type="text" name="name" class="input" />
+                    <label for="">Navn</label>
+                    <span>Navn</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="input" />
+                    <label for="">E-mail</label>
+                    <span>E-mail</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="input" />
+                    <label for="">Telefon nr.</label>
+                    <span>Telefon nr.</span>
+                  </div>
+                  <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Besked</label>
+                    <span>Besked</span>
+                  </div>
+                  <input type="submit" value="Send" class="btn"  />
+                </form>
+              </div>
+            </div>
+         
+      
+          
 
 
 
