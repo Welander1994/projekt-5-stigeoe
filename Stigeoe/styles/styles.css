@@ -705,8 +705,9 @@ header .logo {
 }
 
 .imgimgimgstort {
-    display: flex;
-    width: 100%;
+    display: block;
+    margin: auto;
+    width: 80%;
 }
 
 .imgkort {
