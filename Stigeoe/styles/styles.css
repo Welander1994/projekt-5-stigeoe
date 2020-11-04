@@ -318,6 +318,10 @@ header nav ul li a.active,
     border: 2px solid var(--light-green);
   }
 
+  #button {
+    text-align: center;
+    }
+
 @media (max-width: 890px) {
 
     body {
