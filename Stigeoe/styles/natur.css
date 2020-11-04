@@ -1,0 +1,20 @@
+.standardtekstfelt {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.undertekstfelt {
+    padding-top: 2%;
+    border-top: 2px solid var(--light-yellow);
+    max-height: 500px;
+    margin: 5%;
+}
+
+.underundertekstfelt {
+    padding-top: 2%;
+    border-top: 2px solid var(--light-yellow);
+    max-height: 500px;
+    margin: 5%;
+    margin-left: 0%;
+}
+
