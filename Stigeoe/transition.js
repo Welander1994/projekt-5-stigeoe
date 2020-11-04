@@ -1,5 +1,5 @@
 
-var underMenu = ["FORSIDE", "BOOKING", "KONTAKT", "GALLERI", "HISTORIE", "NATUR", "Fremtid", "FAQ"];
+var underMenu = ["FORSIDE", "BOOKING", "KONTAKT", "GALLERI", "kort", "HISTORIE", "NATUR", "Fremtid", "FAQ"];
 
 
 function transitionForside() {
@@ -13,18 +13,22 @@ function transitionKontakt() {
 }
 function transitionGalleri() {
     document.getElementById("transitionText").innerHTML = underMenu[3];
+
 }
-function transitionHistorie() {
+function transitionKort() {
     document.getElementById("transitionText").innerHTML = underMenu[4];
 }
-function transitionNatur() {
+function transitionHistorie() {
     document.getElementById("transitionText").innerHTML = underMenu[5];
 }
-function transitionFremtid() {
+function transitionNatur() {
     document.getElementById("transitionText").innerHTML = underMenu[6];
 }
-function transitionFAQ() {
+function transitionFremtid() {
     document.getElementById("transitionText").innerHTML = underMenu[7];
+}
+function transitionFAQ() {
+    document.getElementById("transitionText").innerHTML = underMenu[8];
 }
 
 

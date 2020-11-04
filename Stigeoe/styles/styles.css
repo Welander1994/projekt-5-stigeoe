@@ -303,6 +303,10 @@ header nav ul li a.active,
     border: 2px solid var(--light-green);
   }
 
+  #button {
+      text-align: center;
+  }
+
   .button:hover {
     background-color: var(--light-green);
     border: none;
@@ -695,4 +699,11 @@ header .logo {
 .imgimgimgstort {
     display: flex;
     width: 100%;
+}
+
+.imgkort {
+    display: block;
+    margin: auto;
+    width: 50%;
+
 }
