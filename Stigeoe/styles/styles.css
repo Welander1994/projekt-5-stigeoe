@@ -695,3 +695,10 @@ header .logo {
     display: flex;
     width: 100%;
 }
+
+.imgkort {
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
