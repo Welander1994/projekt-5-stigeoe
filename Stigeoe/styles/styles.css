@@ -510,7 +510,25 @@ header .logo {
 
       
 }
+/* Kontakt siden */
+.kontaktinfo{
+	display: flex;
+	margin: 0px;
+}
+.kontaktinfo p{
+	margin: 0px 0px 0px 10px;
 
+}
+
+.kontakt h2{
+	margin-left: 10px;
+}
+.kontakt p{
+	margin-left: 10px;
+}
+.kontakt-left{
+	margin-right: 10px;
+}
 
 /*Galleri siden*/
 
