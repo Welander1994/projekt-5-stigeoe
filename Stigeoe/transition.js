@@ -1,5 +1,5 @@
 
-var underMenu = ["FORSIDE", "BOOKING", "KONTAKT", "GALLERI", "HISTORIE", "NATUR", "Fremtid"];
+var underMenu = ["FORSIDE", "BOOKING", "KONTAKT", "GALLERI", "HISTORIE", "NATUR", "Fremtid", "FAQ"];
 
 
 function transitionForside() {
@@ -22,6 +22,9 @@ function transitionNatur() {
 }
 function transitionFremtid() {
     document.getElementById("transitionText").innerHTML = underMenu[6];
+}
+function transitionFAQ() {
+    document.getElementById("transitionText").innerHTML = underMenu[7];
 }
 
 

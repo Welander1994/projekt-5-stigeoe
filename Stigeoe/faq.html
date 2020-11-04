@@ -7,38 +7,40 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/faq.css">
     <script src="faq.js" defer></script>
+    <script src="javascript.js" defer></script>
+    <script src="transition.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <title>FAQ</title>
 </head>
 
 <body>
     <header>
-        <div class="logo"><a href="#" class="active">Stige Ø</a></div>
-
+        <div class="logo">
+            <li><a href="/Stigeoe/forside.html" class="active" onclick="transitionForside()">Stige Ø</a></li>
+        </div>
         <nav id="toggle1">
             <ul>
-                <li><a href="#">Aktiviteter</a></li>
-                <li><a href="/Stigeoe/formular.html">Booking</a></li>
-                <li><a href="#">Kontakt</a></li>
-                <li><a href="#">Galleri</a></li>
+                <li><a href="/Stigeoe/forside.html" onclick="transitionForside()">Forside</a></li>
+                <li><a href="/Stigeoe/formular.html" onclick="transitionBooking()">Booking</a></li>
+                <li><a href="/Stigeoe/kontakt.html" onclick="transitionKontakt()">Kontakt</a></li>
+                <li><a href="#" onclick="transitionGalleri()">Galleri</a></li>
                 <li><a href="https://www.google.com/maps/search/stige+%C3%B8/@55.443659,10.4173867,15z/data=!3m1!4b1"
                         target="_blank">Kort</a></li>
+                <li><a href="/Stigeoe/historie.html" onclick="transitionHistorie()">Øens historie</a></li>
+                <li><a href="/Stigeoe/natur.html" onclick="transitionNatur()">Øens natur</a></li>
+                <li><a href="/Stigeoe/fremtid.html" onclick="transitionFremtid()">Øens fremtid</a></li>
+                <li><a href="/Stigeoe/faq.html" onclick="transitionFAQ()">FAQ</a></li>
 
-                <li><a href="#" onclick="dropdown()">Om <i class="fas fa-angle-down"></i></a>
 
-                    <ul id="toggle2" class="undermenu">
-                        <li><a href="#">Øens historie</a></li>
-                        <li><a href="#">Øens natur</a></li>
-                        <li><a href="#">Øens fremtid</a></li>
-                    </ul>
-
-                </li>
             </ul>
         </nav>
         <div class="menu-toggle" onclick="burgerMenu()"><i class="fas fa-bars"></i></div>
     </header>
 
     <main class="content">
+        <div class="transition transition-1 is-active">
+            <h1 id="transitionText">faq</h1>
+        </div>
         <h1>FAQ</h1>
         <div class="harmonikaboks">
             <button class="harmonika">Må man sove i telt på Stige Ø?</button>
