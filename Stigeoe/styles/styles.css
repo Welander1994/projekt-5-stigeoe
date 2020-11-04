@@ -318,6 +318,10 @@ header nav ul li a.active,
     border: 2px solid var(--light-green);
   }
 
+  #button {
+    text-align: center;
+    }
+
 @media (max-width: 890px) {
 
     body {
@@ -695,4 +699,23 @@ header .logo {
 .imgimgimgstort {
     display: flex;
     width: 100%;
+}
+
+.imgkort {
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+
+/*DOWNLOAD AF KORT*/
+#downloadkort {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+#downloadkort:hover {
+    color: var(--dark-yellow);
+    text-decoration: underline;
 }
