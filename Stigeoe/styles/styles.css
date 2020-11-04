@@ -706,3 +706,15 @@ header .logo {
     width: 50%;
 
 }
+
+
+/*DOWNLOAD AF KORT*/
+#downloadkort {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+#downloadkort:hover {
+    color: var(--dark-yellow);
+    text-decoration: underline;
+}
