@@ -4,19 +4,28 @@ let galleryImages = document.querySelectorAll(".gallery-img");
 let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
 
-galleryImages.forEach(function (image, index) {
-    image.onclick = function () {
+if (galleryImages) {
+    galleryImages.forEach(function (image, index) {
+        image.onclick = function () {
+            let getElementCss = window.getComputedStyle(image);
+            let getFullImgUrl = getElementCss.getPropertyValue("background-image");
 
-        getLatestOpenedImg = index + 1;
+            getLatestOpenedImg = index + 1;
 
-        let container = document.body;
-        let newImgWindow = document.createElement("div");
-        container.appendChild(newImgWindow);
-        newImgWindow.setAttribute("class", "img-window");
-        newImgWindow.setAttribute("onclick", "closeImg()");
+            let container = document.body;
+            let newImgWindow = document.createElement("div");
+            container.appendChild(newImgWindow);
+            newImgWindow.setAttribute("class", "img-window")
+            newImgWindow.setAttribute("onclick", "closeImg()")
+        }
 
-    }
-})
+    });
+}
+
+
+
+
+
 function burgerMenu() {
     let element = document.getElementById("toggle1");
     element.classList.toggle("menu-active");

@@ -283,6 +283,10 @@ header nav ul li a.active,
     justify-content: space-between;
 }
 
+.indhold img {
+    max-width: 25%;
+}
+
 .tesk {
     width: 50%;
 }
@@ -317,6 +321,10 @@ header nav ul li a.active,
     border-radius: 25px;
     border: 2px solid var(--light-green);
   }
+
+  #button {
+    text-align: center;
+    }
 
 @media (max-width: 890px) {
 
@@ -437,8 +445,12 @@ header .logo {
         max-height: 500px;
         display: flex;
         flex-direction: column;
+        padding-top: 10%;
+        padding-bottom: 20%;
     }
     
+   
+
     .tesk {
         width: 100%;
     }
@@ -620,7 +632,7 @@ header .logo {
     .img-window{
         width: 100vw;
         height: 100vh;
-        background-color:rgba(0, 0, 0, 0.8) ;
+        background-color:rgba(0, 0, 0, 1) ;
         position: fixed;
         top: 0;
         left: 0;
@@ -628,12 +640,13 @@ header .logo {
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 10000;
+        z-index: 100;
     }
         /*Popup billede */
         .img-window img{
             max-width: 80vw;
             max-height: 80vh;
+            z-index: 200;
         }
 
 
@@ -710,6 +723,26 @@ header .logo {
 }
 
 .imgimgimgstort {
-    display: flex;
-    width: 100%;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.imgkort {
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+
+/*DOWNLOAD AF KORT*/
+#downloadkort {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+#downloadkort:hover {
+    color: var(--dark-yellow);
+    text-decoration: underline;
 }
