@@ -1,3 +1,22 @@
+//Galleri
+
+let galleryImages = document.querySelectorAll(".gallery-img");
+let getLatestOpenedImg;
+let windowWidth = window.innerWidth;
+
+galleryImages.forEach(function (image, index) {
+    image.onclick = function () {
+
+        getLatestOpenedImg = index + 1;
+
+        let container = document.body;
+        let newImgWindow = document.createElement("div");
+        container.appendChild(newImgWindow);
+        newImgWindow.setAttribute("class", "img-window");
+        newImgWindow.setAttribute("onclick", "closeImg()");
+
+    }
+})
 function burgerMenu() {
     let element = document.getElementById("toggle1");
     element.classList.toggle("menu-active");
@@ -39,8 +58,6 @@ var x = setInterval(function () {
 }, 1000);
 
 
-
-
 //banner ord slide animation
 let ordSlider_i = 0;
 let ordSlider_array = [" aktiviteternes ø", " familiens ø", " børnenes ø", " den aktives ø", " en tumleplads"];
@@ -64,33 +81,4 @@ function ordSliderSlide() {
 
 ordSlider_elem = document.getElementById("ordSlider"); ordSliderSlide();
 
-//Galleri
 
-let galleryImages = document.querySelectorAll(".gallery-img");
-let getLatestOpenedImg;
-let windowWidth = window.innerWidth;
-
-if (galleryImages) {
-    galleryImages.forEach(function (image, index) {
-        image.onclick = function () {
-            let getElementCss = window.getComputedStyle(image);
-            let getFullImgUrl = getElementCss.getPropertyValue("background-image");
-            let getImgUrlPos = getFullImgUrl.split("/img/");
-            let setNewImgUrl = getImgUrlPos[0].replace('")', '');
-
-            getLatestOpenedImg = index + 1;
-
-            let container = document.body;
-            let newImgWindow = document.createElement("div");
-            container.appendChild(newImgWindow);
-            newImgWindow.setAttribute("class", "img-window");
-            newImgWindow.setAttribute("onclick", "closeImg()");
-
-
-            let newImg = document.createElement("img");
-            newImgWindow.appendChild(newImg);
-            newImg.setAttribute("scr", "img/" + getFullImgUrl)
-        }
-
-    });
-}
