@@ -16,7 +16,3 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
 });
-
-function sentMessage() {
-    document.getElementById("sendt").innerHTML = "Sendt";
-}
