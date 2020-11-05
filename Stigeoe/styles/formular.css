@@ -37,6 +37,7 @@
 }
 
   .container {
+   
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -50,6 +51,7 @@
   
   
   .contact-form {
+    
     margin-left: 15%;
     background-color: var(--light-green);
     position: relative;
@@ -88,14 +90,14 @@
     font-weight: 500;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
-    border-radius: 25px;
+  
     transition: 0.3s;
   }
   
   textarea.input {
     padding: 0.8rem 1.2rem;
     min-height: 150px;
-    border-radius: 22px;
+ 
     resize: none;
     overflow-y: auto;
   }
