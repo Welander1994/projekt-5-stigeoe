@@ -231,12 +231,14 @@ header nav ul li a.active,
 
 .standardtekstfelt {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
 }
 
 
 
 .standardtekstfelt img {
+    padding-bottom: 5%;
+    padding-right: 10%;
     width: 15%;
  
 }
