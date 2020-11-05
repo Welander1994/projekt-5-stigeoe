@@ -886,3 +886,19 @@ header .logo {
         }
       
     }
+
+
+    .venstrebilleder {
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        width: 20%;
+        padding: 5%;
+        position: relative;
+        position: center;
+    }
+
+    .sommerfugleflex {
+        display: flex;
+        flex-direction: column;
+    }
