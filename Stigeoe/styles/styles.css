@@ -699,7 +699,7 @@ header .logo {
     .event-img {
         padding: 0;
         margin: 0;
-        background-image: url(/Stigeoe/img/bær.jpg);
+        background-image: url(/Stigeoe//img/juleevent.png);
         background-position: center;
         background-size: cover;
         order: -1;
@@ -710,6 +710,34 @@ header .logo {
         z-index: -999;
     }
     
+	.event-img2 {
+        padding: 0;
+        margin: 0;
+        background-image: url(/Stigeoe/img/drageevent.png);
+        background-position: center;
+        background-size: cover;
+        order: -1;
+        height: 500px;
+        width: 100%;
+        position: relative;
+        padding-bottom: 2%;
+        z-index: -999;
+    }
+	
+	.event-img3 {
+        padding: 0;
+        margin: 0;
+        background-image: url(/Stigeoe/img/påskeevent.png);
+        background-position: center;
+        background-size: cover;
+        order: -1;
+        height: 500px;
+        width: 100%;
+        position: relative;
+        padding-bottom: 2%;
+        z-index: -999;
+    }
+	
     .indhold {
         max-height: 500px;
         display: flex;
