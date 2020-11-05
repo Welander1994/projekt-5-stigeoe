@@ -229,6 +229,18 @@ header nav ul li a.active,
   left: 45%;
 }
 
+.standardtekstfelt {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.standardtekstfelt img {
+    width: 15%;
+ 
+}
+
 .footer {
     position: fixed;
     display: flex;
