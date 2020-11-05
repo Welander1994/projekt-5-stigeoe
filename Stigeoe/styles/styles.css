@@ -267,8 +267,8 @@ header nav ul li a.active,
     margin-bottom: 2%;
 }
 
-.footer {
-    position: fixed;
+footer {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -280,14 +280,14 @@ header nav ul li a.active,
 
 }
 
-.footer a {
+footer a {
     font-size: 2rem;
     text-decoration: none;
     padding-bottom: 10%;
     color: var(--white);
 }
 
-.footer a:hover {
+footer a:hover {
     color: var(--dark-green);
 }
 
@@ -752,7 +752,7 @@ header .logo {
     }
   
 
-    .footer {
+    footer {
         position: relative;
         bottom: 0;
         left: 0;
@@ -761,7 +761,7 @@ header .logo {
         background-color: var(--light-yellow);
     }
 
-    .footer a {
+    footer a {
         padding: 5% 0 5% 0;
     }
 
