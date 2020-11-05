@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width , initial-scale=1.0">
 
 <head>
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <link rel="stylesheet" href="/Stigeoe/styles/styles.css">
     <script src="javascript.js" defer></script>
     <script src="/Stigeoe/transition.js" defer></script>
     <script src="https://kit.fontawesome.com/9d426a8111.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="/Stigeoe/img/logo.png" alt="icon af stige oe">
+    <link rel="icon" href="/Stigeoe/img/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <title>Galleri</title>
 </head>
@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="logo">
-            <li><a href="/Stigeoe/forside.html" class="active" onclick="transitionForside()">Stige Ø</a></li>
+            <a href="/Stigeoe/forside.html" class="active" onclick="transitionForside()">Stige Ø</a>
         </div>
         <nav id="toggle1">
             <ul>
@@ -39,9 +39,8 @@
         <div class="transition transition-1 is-active">
             <h1 id="transitionText">Galleri</h1>
         </div>
-
-        <section class="index-gallery">
-            <h1>Galleri</h1>
+        <h1>Galleri</h1>
+        <main class="index-gallery">
             <div class="gallery-img img-1">
             </div>
             <div class="gallery-img img-2">
@@ -56,7 +55,7 @@
             </div>
             <div class="gallery-img img-7">
             </div>
-        </section>
+        </main>
         <div class="gallery-text">
             <img class="normal-pil" src=" /Stigeoe/img/pil.png" alt="grøn pil">
             <p>Psst… flere billeder findes
