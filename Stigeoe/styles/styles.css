@@ -347,162 +347,6 @@ header nav ul li a.active,
     text-align: center;
     }
 
-@media (max-width: 890px) {
-
-    body {
-        margin: 0;
-        padding: 0;
-       
-        font-family: 'helvetica neue', sans-serif;
-
-    }
-
-    .content {
-        padding-top: 6%;
-        padding-left: 0%;
-    }
-    header {
-    
-        width: 100%;
-        height: 6.5%;
-        
-    }
- 
-header .logo {
-    padding-left: 1%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    line-height: 20px;
-}
-    .menu-toggle {
-        display: block;
-    }
-
-    header nav {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        background: var(--light-green);
-        top: 53px;
-        left: -100%;
-        transition: 1s;
-        transition-timing-function: ease-in-out;
-        z-index: 999;
-    }
-
- header nav.menu-notactive {
-        left: -100%;
-    }
-
-    header nav.menu-active {
-        left: 0;
-        
-    }
-
-    header nav ul {
-        display: block;
-        text-align: center;
-        padding-top: 0;
-    }
-    header nav ul li a  {
-        border-top: 2px solid  var(--white);
-        font-size: 1.5rem;
-        padding: 2%;
-    
-    }
-    header nav ul ul li a {
-        border-top: 0px solid  var(--white);
-        width: 100%;
-    }
-
-    .cover-img {
-      
-        height: 200px;
-   
-        
-    }
-
-    .cover-img h3 {
-        font-size: 1rem;
-        position: absolute;
-        left: 40%;
-      }
-    .content h1 {
-        font-family: var(--h1);
-        font-size: 1.7rem;
-        padding-left: 2%;
-    }
-
-    .event {
-        padding-top: 6%;
-        border-top: 2px solid  var(--light-yellow);
-        max-height: 500px;
-        padding-bottom: 3%;
-
-    }
-    
-    .event h2 {
-        max-width: 375px;
-        padding: 0;
-        margin: 0;
-        font-size: 1.5rem;
-    }
-    
-    .event-img {
-        padding: 0;
-        margin: 0;
-        background-image: url(/Stigeoe/img/bær.jpg);
-        background-position: center;
-        background-size: cover;
-        order: -1;
-        height: 500px;
-        width: 100%;
-        position: relative;
-        padding-bottom: 2%;
-        z-index: -999;
-    }
-    
-    .indhold {
-        max-height: 500px;
-        display: flex;
-        flex-direction: column;
-        padding-top: 10%;
-        padding-bottom: 20%;
-    }
-    
-   
-
-    .tesk {
-        width: 100%;
-    }
-
-
-    .footer {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        height: 10%;
-        width: 100%;
-        background-color: var(--light-yellow);
-    }
-
-    .footer a {
-        padding: 5% 0 5% 0;
-    }
-
-    .index-gallery{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 
-        "gallery-h1 gallery-h1 gallery-h1"
-        "img-1 img-2 img-3 "
-        "img-4 img-5 img-3"
-        "img-6 img-7"
-        ;
-     }
-     .index-gallery h1{
-        padding-left: 0;
-    }
-}
 
 /*Slider ord - Banner*/
 #ordSlider{
@@ -750,6 +594,162 @@ header .logo {
     text-decoration: underline;
 }
 
+@media (max-width: 890px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+       
+        font-family: 'helvetica neue', sans-serif;
+
+    }
+
+    .content {
+        padding-top: 6%;
+        padding-left: 0%;
+    }
+    header {
+    
+        width: 100%;
+        height: 6.5%;
+        
+    }
+ 
+header .logo {
+    padding-left: 1%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: var(--light-green);
+        top: 53px;
+        left: -100%;
+        transition: 1s;
+        transition-timing-function: ease-in-out;
+        z-index: 999;
+    }
+
+ header nav.menu-notactive {
+        left: -100%;
+    }
+
+    header nav.menu-active {
+        left: 0;
+        
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+        padding-top: 0;
+    }
+    header nav ul li a  {
+        border-top: 2px solid  var(--white);
+        font-size: 1.5rem;
+        padding: 2%;
+    
+    }
+    header nav ul ul li a {
+        border-top: 0px solid  var(--white);
+        width: 100%;
+    }
+
+    .cover-img {
+      
+        height: 200px;
+   
+        
+    }
+
+    .cover-img h3 {
+        font-size: 1rem;
+        position: absolute;
+        left: 40%;
+      }
+    .content h1 {
+        font-family: var(--h1);
+        font-size: 1.7rem;
+        padding-left: 2%;
+    }
+
+    .event {
+        padding-top: 6%;
+        border-top: 2px solid  var(--light-yellow);
+        max-height: 500px;
+        padding-bottom: 3%;
+
+    }
+    
+    .event h2 {
+        max-width: 375px;
+        padding: 0;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+    .event-img {
+        padding: 0;
+        margin: 0;
+        background-image: url(/Stigeoe/img/bær.jpg);
+        background-position: center;
+        background-size: cover;
+        order: -1;
+        height: 500px;
+        width: 100%;
+        position: relative;
+        padding-bottom: 2%;
+        z-index: -999;
+    }
+    
+    .indhold {
+        max-height: 500px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+    
+   
+
+    .tesk {
+        width: 100%;
+    }
+
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        height: 10%;
+        width: 100%;
+        background-color: var(--light-yellow);
+    }
+
+    .footer a {
+        padding: 5% 0 5% 0;
+    }
+
+    .index-gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "gallery-h1 gallery-h1 gallery-h1"
+        "img-1 img-2 img-3 "
+        "img-4 img-5 img-3"
+        "img-6 img-7"
+        ;
+     }
+     .index-gallery h1{
+        padding-left: 0;
+    }
+}
 
 @media (max-width: 500px){
     
@@ -779,7 +779,7 @@ header .logo {
         width: 100%;
         height: 200px;
     }
-
+}
     @media (max-width: 400px){
     
         .index-gallery{ 
@@ -801,4 +801,4 @@ header .logo {
             height: 300px;
         }
       
-}
+    }
