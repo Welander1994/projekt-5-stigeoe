@@ -267,8 +267,28 @@ header nav ul li a.active,
     font-size: 2.5rem;
 }
 
-.event-img {
-    background-image: url(/Stigeoe/img/bær.jpg);
+.event-img1 {
+    background-image: url(/Stigeoe//img/juleevent.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+    position: relative;
+    padding: 5%;
+   
+}
+.event-img2 {
+    background-image: url(/Stigeoe/img/drageevent.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+    position: relative;
+    padding: 5%;
+   
+}
+.event-img3 {
+    background-image: url(/Stigeoe/img/påskeevent.png);
     background-position: center;
     background-size: cover;
     height: 400px;
@@ -479,6 +499,9 @@ header .logo {
         "img-6 img-7"
         ;
      }
+     .index-gallery h1{
+        padding-left: 0;
+    }
 }
 
 /*Slider ord - Banner*/
@@ -499,30 +522,7 @@ header .logo {
     z-index: 6;
 }
 
-@media (max-width: 500px){
-    h3{
-        font-size: 1rem;
-    }
 
-    .cover-img h3 {
-        font-size: 1rem;
-        position: absolute;
-        left: 25%;
-      } 
-
-      .index-gallery{
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        "gallery-h1 gallery-h1"
-        "img-1 img-2"
-        "img-3 img-4"
-        "img-5 img-6"
-        "img-3 img-7"
-    ;
-    }
-
-      
-}
 /* Kontakt siden */
 .kontaktinfo{
 	display: flex;
@@ -552,14 +552,14 @@ header .logo {
     .index-gallery{
         margin: 2vw;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns:  repeat(3, 1fr);
         grid-template-rows: auto;
         grid-gap: 10px;
         grid-template-areas: 
-        "gallery-h1 gallery-h1 gallery-h1 gallery-h1"
-        "img-1 img-2 img-3 img-4"
-        "img-5 img-6 img-3 img-7"
-    ;
+        "gallery-h1 gallery-h1 gallery-h1 "
+        "img-1 img-2 img-3 "
+        "img-4 img-6 img-3 "
+        "img-7 img-5 img-5" ;
     }
 
     .index-gallery .gallery-img{
@@ -575,6 +575,7 @@ header .logo {
     .index-gallery h1{
         grid-area: gallery-h1;
         margin-bottom: 0;
+        margin-top: 1rem;
     }
 
     .index-gallery .img-1{
@@ -601,6 +602,7 @@ header .logo {
     .index-gallery .img-6{
         grid-area: img-6;
         background-image: url("../img/img-6.jpg");
+        width: 100%;
     }
     .index-gallery .img-7{
         grid-area: img-7;
@@ -746,4 +748,56 @@ header .logo {
 #downloadkort:hover {
     color: var(--dark-yellow);
     text-decoration: underline;
+}
+
+
+@media (max-width: 500px){
+    
+    h3{
+        font-size: 1rem;
+    }
+
+    .cover-img h3 {
+        font-size: 1rem;
+        position: absolute;
+        left: 25%;
+      } 
+
+    
+    .index-gallery{ 
+           
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+                "gallery-h1 gallery-h1 "
+                "img-1 img-2 "
+                "img-3 img-4 "
+                "img-5 img-6 "
+                "img-7 img-7 ";
+        }
+
+    .index-gallery .gallery-img{
+        width: 100%;
+        height: 200px;
+    }
+
+    @media (max-width: 400px){
+    
+        .index-gallery{ 
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-areas:
+                    "gallery-h1 "
+                    "img-1  "
+                    "img-2 "
+                    "img-3  "
+                    "img-4 "
+                    "img-5 "
+                    "img-6 "
+                    "img-7 "
+                    ;
+            }
+    
+        .index-gallery .gallery-img{
+            width: 100%;
+            height: 300px;
+      
 }
