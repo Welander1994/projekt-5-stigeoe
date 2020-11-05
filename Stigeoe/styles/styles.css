@@ -21,13 +21,13 @@
   ::-webkit-scrollbar {
     width: 10px;
   }
-  
+
 ::-webkit-scrollbar-thumb {
-    background: var(--light-green); 
+    background: var(--light-green);
     border-radius: 10px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--dark-green); 
+    background: var(--dark-green);
   }
 
 body {
@@ -76,17 +76,17 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    text-align: left; 
+    text-align: left;
     font-family: 'helvetica neue', sans-serif;
     z-index: 7;
-     
+
 }
 
 header ul a {
     padding-left: 5%;
 }
 
-.logo { 
+.logo {
     font-family: var(--h1);
     padding-top: 10%;
     color: var(--white);
@@ -95,7 +95,7 @@ header ul a {
     font-size: 24px;
     float: left;
     text-align: center;
-    
+
 }
 
 .logo li  {
@@ -116,14 +116,14 @@ header nav ul {
     padding-top: 20%;
     padding-left: 0;
     display: block;
-    
+
 }
 
 header nav ul li ul  {
     margin: 0;
     padding: 0;
     display: block;
-    
+
 }
 
 header nav ul li {
@@ -142,7 +142,7 @@ header nav ul li a {
     justify-content: space-between;
     align-items: center;
     font-family: 'helvetica neue', sans-serif;
-    
+
 }
 header nav ul li a i {
     padding-right: 10%;
@@ -154,7 +154,7 @@ header nav ul ul {
 }
 
 header nav ul ul li a {
-   
+
     font-size: 1rem;
     font-weight: lighter;
 }
@@ -173,7 +173,7 @@ header nav ul ul li a {
 }
 
 .undermenu-active li{
-    padding-left: 5%; 
+    padding-left: 5%;
     margin: 0;
     opacity: 1;
     height: 40px;
@@ -217,7 +217,7 @@ header nav ul li a.active,
 #historie-img {
     padding-left: 5%;
     width: 70%;
-    
+
 }
 
 .content h1 {
@@ -228,7 +228,7 @@ header nav ul li a.active,
 
 .cover-img {
     height: 300px;
-    background:url(/Stigeoe//img/banner-forside.png);
+    background:url(../img/banner-forside.png);
     background-position: 50% 65%;
     background-size: cover;
     display:flex ;
@@ -254,7 +254,7 @@ header nav ul li a.active,
     padding-bottom: 5%;
     padding-right: 10%;
     width: 15%;
- 
+
 }
 
 .footer {
@@ -267,7 +267,7 @@ header nav ul li a.active,
     width: 15%;
     background-color: var(--light-green);
     z-index:100;
-   
+
 }
 
 .footer a {
@@ -296,34 +296,34 @@ header nav ul li a.active,
 }
 
 .event-img1 {
-    background-image: url(/Stigeoe//img/juleevent.png);
+    background-image: url(../img/juleevent.png);
     background-position: center;
     background-size: cover;
     height: 300px;
     width: 30%;
     position: relative;
     padding: 5%;
-   
+
 }
 .event-img2 {
-    background-image: url(/Stigeoe/img/drageevent.png);
+    background-image: url(../img/drageevent.png);
     background-position: center;
     background-size: cover;
     height: 300px;
     width: 30%;
     position: relative;
     padding: 5%;
-   
+
 }
 .event-img3 {
-    background-image: url(/Stigeoe/img/påskeevent.png);
+    background-image: url(../img/påskeevent.png);
     background-position: center;
     background-size: cover;
     height: 300px;
     width: 30%;
     position: relative;
     padding: 5%;
-   
+
 }
 
 .indhold {
@@ -393,11 +393,11 @@ header nav ul li a.active,
 
 
 .kort {
-  
+
     display: flex;
     flex-direction: column;
     padding-left: 5%;
-    
+
 }
 
 
@@ -434,7 +434,7 @@ header nav ul li a.active,
         grid-template-columns:  repeat(3, 1fr);
         grid-template-rows: auto;
         grid-gap: 10px;
-        grid-template-areas: 
+        grid-template-areas:
         "img-1 img-2 img-3 "
         "img-4 img-6 img-3 "
         "img-7 img-5 img-5" ;
@@ -448,7 +448,7 @@ header nav ul li a.active,
         background-position: center;
         cursor: pointer;
     }
-    
+
     /*Billederne styling*/
 
     .index-gallery .img-1{
@@ -486,7 +486,7 @@ header nav ul li a.active,
         align-items: center;
         margin: 2vw;
         padding-top: 6%;
-        
+
     }
     .gallery-text img{
         height: 10%;
@@ -496,7 +496,7 @@ header nav ul li a.active,
     .gallery-text p{
         font-family: rock salt;
         font-size: 2vw;
-        padding-left: 20px;  
+        padding-left: 20px;
     }
     .responsiv-pil{
         display: none;
@@ -504,11 +504,11 @@ header nav ul li a.active,
 /*FAQ-styyyyyyyyyyylessssss*/
 /* fjernet understreg ved klik af logo i hjørnet, Farven skifter stadig */
 .active{
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 .harmonika {
-   background-color: var(--light-yellow); 
+   background-color: var(--light-yellow);
    color: black;
    cursor: pointer;
    padding: 18px;
@@ -525,15 +525,15 @@ header nav ul li a.active,
 }
 
 .harmonika:after {
-    content: '\02795'; 
+    content: '\02795';
     font-size: 13px;
     color: var(--dark-green);
     float: right;
     margin-left: 5px;
   }
-  
+
   .activeharmonika:after {
-    content: "\2796"; 
+    content: "\2796";
   }
 
 .harmonikatekstfelt {
@@ -603,7 +603,7 @@ header nav ul li a.active,
     body {
         margin: 0;
         padding: 0;
-       
+
         font-family: 'helvetica neue', sans-serif;
 
     }
@@ -613,12 +613,12 @@ header nav ul li a.active,
         padding-left: 0%;
     }
     header {
-    
+
         width: 100%;
         height: 6.5%;
-        
+
     }
- 
+
 header .logo {
     padding-left: 1%;
     padding-top: 20px;
@@ -647,7 +647,7 @@ header .logo {
 
     header nav.menu-active {
         left: 0;
-        
+
     }
 
     header nav ul {
@@ -659,7 +659,7 @@ header .logo {
         border-top: 2px solid  var(--white);
         font-size: 1.5rem;
         padding: 2%;
-    
+
     }
     header nav ul ul li a {
         border-top: 0px solid  var(--white);
@@ -668,16 +668,16 @@ header .logo {
 
 
     .cover-img {
-      
+
         height: 200px;
-        
+
     }
 
     .cover-img h3 {
         font-size: 1rem;
         position: absolute;
         left: 40%;
-	
+
       }
     .content h1 {
         font-family: var(--h1);
@@ -685,18 +685,18 @@ header .logo {
         padding-left: 2%;
     }
 
-    
+
     .event h2 {
         max-width: 375px;
         padding: 0;
         margin: 0;
         font-size: 1.5rem;
     }
-    
+
     .event-img {
         padding: 0;
         margin: 0;
-        background-image: url(/Stigeoe//img/juleevent.png);
+        background-image: url(../img/juleevent.png);
         background-position: center;
         background-size: cover;
         order: -1;
@@ -706,11 +706,11 @@ header .logo {
         padding-bottom: 2%;
         z-index: -999;
     }
-    
+
 	.event-img2 {
         padding: 0;
         margin: 0;
-        background-image: url(/Stigeoe/img/drageevent.png);
+        background-image: url(../img/drageevent.png);
         background-position: center;
         background-size: cover;
         order: -1;
@@ -720,11 +720,11 @@ header .logo {
         padding-bottom: 2%;
         z-index: -999;
     }
-	
+
 	.event-img3 {
         padding: 0;
         margin: 0;
-        background-image: url(/Stigeoe/img/påskeevent.png);
+        background-image: url(../img/påskeevent.png);
         background-position: center;
         background-size: cover;
         order: -1;
@@ -734,7 +734,7 @@ header .logo {
         padding-bottom: 2%;
         z-index: -999;
     }
-	
+
     .indhold {
         max-height: 500px;
         display: flex;
@@ -742,8 +742,8 @@ header .logo {
         padding-top: 10%;
         padding-bottom: 20%;
     }
-    
-   
+
+
 
     .tesk {
         width: 100%;
@@ -765,7 +765,7 @@ header .logo {
 
     .index-gallery{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 
+        grid-template-areas:
         "img-1 img-2 img-3 "
         "img-4 img-5 img-3"
         "img-6 img-7"
@@ -786,7 +786,7 @@ header .logo {
         transform: rotate(56deg) scaleX(-1);
         padding-top: 20%;
         padding-left: 6%;
-    
+
     }
     .normal-pil{
         display: none;
@@ -794,8 +794,8 @@ header .logo {
     .gallery-text p{
         font-family: rock salt;
         font-size: 3vw;
-        padding-left: 20px;  
-       
+        padding-left: 20px;
+
     }
     .responsiv-pil{
         display: block;
@@ -805,11 +805,11 @@ header .logo {
         height: 15%;
         width: 15%;
     }
-   
+
 }
 
 @media (max-width: 500px){
-    
+
     h3{
         font-size: 1rem;
     }
@@ -818,11 +818,11 @@ header .logo {
         font-size: 1rem;
         position: absolute;
         left: 25%;
-      } 
+      }
 
-    
-    .index-gallery{ 
-           
+
+    .index-gallery{
+
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas:
                 "img-1 img-2 "
@@ -841,13 +841,13 @@ header .logo {
     }
 
     .gallery-text p{
-        font-size: 4vw; 
+        font-size: 4vw;
     }
-    
+
 }
     @media (max-width: 400px){
-    
-        .index-gallery{ 
+
+        .index-gallery{
                 grid-template-columns: repeat(1, 1fr);
                 grid-template-areas:
                     "img-1  "
@@ -859,7 +859,7 @@ header .logo {
                     "img-7 "
                     ;
             }
-    
+
         .index-gallery .gallery-img{
             width: 100%;
             height: 300px;
@@ -867,17 +867,17 @@ header .logo {
 
 
         .kort {
-  
+
             display: flex;
             flex-direction: column;
             align-items: center;
-            
+
         }
 
         .imgkort {
             width: 70%;
         }
-      
+
     }
 
 
