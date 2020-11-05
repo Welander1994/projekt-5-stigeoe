@@ -92,3 +92,13 @@ window.onload = () => {
 }
 
 
+function sendShelter() {
+    document.getElementById("messageshelter").innerHTML = "sendt";
+    console.log("send");
+}
+
+
+function sendGuide() {
+    document.getElementById("messageguide").innerHTML = "sendt";
+    console.log("send");
+}
