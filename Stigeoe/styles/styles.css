@@ -216,8 +216,8 @@ header nav ul li a.active,
 
 #historie-img {
     padding-left: 5%;
-    width: 70%;
-
+    padding-bottom: 2.5%;
+    width: 90%;   
 }
 
 .content h1 {
@@ -255,11 +255,16 @@ header nav ul li a.active,
 
 
 
+
 .standardtekstfelt img {
     padding-bottom: 5%;
     padding-right: 10%;
     width: 15%;
 
+}
+
+.standardtekstfelt p{
+    margin-bottom: 2%;
 }
 
 .footer {
@@ -411,7 +416,8 @@ header nav ul li a.active,
 	margin-left: 10px;
 }
 .kontakt p{
-	margin-left: 10px;
+    margin-left: 10px;
+    max-width: 650px;
 }
 .kontakt-left{
 	margin-right: 10px;
@@ -737,8 +743,6 @@ header .logo {
         max-height: 500px;
         display: flex;
         flex-direction: column;
-
-        padding-bottom: 20%;
     }
 
 
@@ -803,7 +807,6 @@ header .logo {
         height: 15%;
         width: 15%;
     }
-
 }
 
 @media (max-width: 500px){
@@ -848,6 +851,8 @@ header .logo {
         margin-top: 15px;
 
       }
+
+      
     }
     @media (max-width: 400px){
 
