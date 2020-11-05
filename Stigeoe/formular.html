@@ -9,11 +9,13 @@
     <link rel="icon" href="/img/logo.png" alt="icon af stige oe">
     <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
     <title>Stige Ø</title>
+    <link rel="stylesheet" href="styles/formular.css">
+    <script src="formular"></script>
 </head>
 <body>
     <header>
         <div class="logo">
-            <li><a href="/Stigeoe/forside.html" class="active" onclick="transitionForside()">Stige Ø</a></li>
+            <li><a href="/Stigeoe/formular.html" class="active" onclick="transitionForside()">Stige Ø</a></li>
         </div>
 
         <nav id="toggle1">
@@ -34,19 +36,53 @@
         <div class="menu-toggle" onclick="burgerMenu()"><i class="fas fa-bars"></i></div>
     </header>
 
-    <div class="content">
-
-        <div class="transition transition-1 is-active">
-            <h1 id="transitionText">booking</h1>
+    <div class="container">
+        <div class="form">
+  
+  
+  
+  
+          <div class="contact-form">
+  
+  
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Book shelterpladsen her</h3>
+              <p>Vi bestræber os på at svare inden for 2-5 hverdage</p>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Navn</label>
+                <span>Navn</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">E-mail</label>
+                <span>E-mail</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Dato(er) i vil booke</label>
+                <span>Dato(er) i vil booke</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Besked</label>
+                <span>Besked</span>
+              </div>
+  
+              <input type="submit" value="Send" class="btn" />
+                <button class="btn">
+                Send
+              </button>
+            </form>
+          </div>
         </div>
-
-        <div class="cover-img">
-            <h3>Stige ø = <span id="ordSlider"></span> </h3>
-        </div>
-
-
+      </div>
+  
+  
 
         <h1>Booking</h1>
+
+
 
 </body>
 </html>
