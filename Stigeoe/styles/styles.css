@@ -337,7 +337,7 @@ header nav ul li a.active,
 }
 
 .tesk {
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -738,7 +738,7 @@ header .logo {
     .tesk {
         width: 100%;
     }
-
+  
 
     .footer {
         position: relative;
@@ -810,7 +810,9 @@ header .logo {
         left: 25%;
       } 
 
-    
+      .content h1 {
+        font-size: 1.6rem;
+    }
     .index-gallery{ 
            
             grid-template-columns: repeat(2, 1fr);
