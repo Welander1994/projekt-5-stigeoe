@@ -466,7 +466,11 @@ header nav ul li a.active,
         grid-area: img-7;
         background-image: url("../img/img-7.jpg");
     }
-
+    .gallery-text img{
+        height: 10%;
+        width: 10%;
+        padding-left: 5%;
+    }
     /* Galleri billede title*/
     .gallery-img div {
         width: 100%;
