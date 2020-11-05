@@ -206,6 +206,17 @@ header nav ul li a.active,
     color: var(--black);
     font-family: 'helvetica neue', sans-serif;
 }
+.historie-text {
+    padding-left: 5%;
+    display: flex;
+    width: 80%;
+}
+
+#historie-img {
+    padding-left: 5%;
+    width: 70%;
+    
+}
 
 .content h1 {
     font-family: var(--h1);
@@ -468,9 +479,13 @@ header nav ul li a.active,
         background-image: url("../img/img-7.jpg");
     }
     .gallery-text img{
-        height: 10%;
-        width: 10%;
-        padding-left: 5%;
+        height: 20%;
+        width: 20%;
+        padding-left: 2.5%;
+    }
+    .gallery-text p{
+        font-family: rock salt;
+        font-size: 2rem;
     }
     /* Galleri billede title*/
     .gallery-img div {
