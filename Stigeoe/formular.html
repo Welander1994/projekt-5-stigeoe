@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width , initial-scale=1.0">
   <link rel="stylesheet" href="/Stigeoe/styles/styles.css">
+  <link rel="stylesheet" href="/Stigeoe/styles/formular.css">
   <script src="javascript.js" defer></script>
   <script src="https://kit.fontawesome.com/9d426a8111.js" crossorigin="anonymous"></script>
-  <link rel="icon" href="/Stigeoe/img/logo.png">
+  <link rel="icon" href="img/logo.png">
   <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
   <title>Booking</title>
 </head>
@@ -15,19 +16,19 @@
 <body>
   <header>
     <div class="logo">
-      <a href="/Stigeoe/forside.html" class="active" onclick="transitionForside()">Stige Ø</a>
+      <a href="forside.html" class="active" onclick="transitionForside()">Stige Ø</a>
     </div>
     <nav id="toggle1">
       <ul>
-        <li><a href="/Stigeoe/forside.html" onclick="transitionForside()">Forside</a></li>
-        <li><a href="/Stigeoe/formular.html" onclick="transitionBooking()">Booking</a></li>
-        <li><a href="/Stigeoe/kontakt.html" onclick="transitionKontakt()">Kontakt</a></li>
-        <li><a href="/Stigeoe/galleri.html" onclick="transitionGalleri()">Galleri</a></li>
-        <li><a href="/Stigeoe/kort.html" onclick="transitionKort()">Kort</a></li>
-        <li><a href="/Stigeoe/historie.html" onclick="transitionHistorie()">Øens historie</a></li>
-        <li><a href="/Stigeoe/natur.html" onclick="transitionNatur()">Øens natur</a></li>
-        <li><a href="/Stigeoe/fremtid.html" onclick="transitionFremtid()">Øens fremtid</a></li>
-        <li><a href="/Stigeoe/faq.html" onclick="transitionFAQ()">FAQ</a></li>
+        <li><a href="forside.html" onclick="transitionForside()">Forside</a></li>
+        <li><a href="formular.html" onclick="transitionBooking()">Booking</a></li>
+        <li><a href="kontakt.html" onclick="transitionKontakt()">Kontakt</a></li>
+        <li><a href="galleri.html" onclick="transitionGalleri()">Galleri</a></li>
+        <li><a href="kort.html" onclick="transitionKort()">Kort</a></li>
+        <li><a href="historie.html" onclick="transitionHistorie()">Øens historie</a></li>
+        <li><a href="natur.html" onclick="transitionNatur()">Øens natur</a></li>
+        <li><a href="fremtid.html" onclick="transitionFremtid()">Øens fremtid</a></li>
+        <li><a href="faq.html" onclick="transitionFAQ()">FAQ</a></li>
 
 
       </ul>
@@ -35,10 +36,14 @@
     <div class="menu-toggle" onclick="burgerMenu()"><i class="fas fa-bars"></i></div>
   </header>
 
-  <div class="container">
-    <div class="form">
+<div class="content">
+
+  <h1>Booking</h1>
+  <p>her har du mulighed for at book både shelter plads eller en guide tur i gennem stige øs fantastiske natur</p>
 
 
+
+      
 
 
       <div class="contact-form">
@@ -68,10 +73,40 @@
             <span>Besked</span>
           </div>
 
-          <input type="submit" value="Send" class="btn" />
-          <button class="btn">
-            Send
-          </button>
+          <input type="button" value="Send" class="btn" onclick="sendShelter()" />
+        <span id="messageshelter">&nbsp;</span>
+        </form>
+      </div>
+
+      <div class="contact-form">
+
+
+        <form action="index.html" autocomplete="off">
+          <h3 class="title">Book guide tur her</h3>
+          <p>Vi bestræber os på at svare inden for 2-5 hverdage</p>
+          <div class="input-container">
+            <input type="text" name="name" class="input" />
+            <label for="">Navn</label>
+            <span>Navn</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label for="">E-mail</label>
+            <span>E-mail</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="">Dato(er) i vil booke</label>
+            <span>Dato(er) i vil booke</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">Besked</label>
+            <span>Besked</span>
+          </div>
+
+          <input type="button" value="Send" class="btn" onclick="sendGuide()" />
+        <span id="messageguide">&nbsp;</span>
         </form>
       </div>
     </div>
@@ -79,10 +114,10 @@
 
 
 
-  <h1>Booking</h1>
 
 
 
+</div>  
 </body>
 
 </html>

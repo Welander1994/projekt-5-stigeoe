@@ -30,6 +30,12 @@
   p{
     color: var(--white);
   }
+
+  .content p {
+    margin: 0 0 5% 5%;
+    color: var(--black)
+}
+
   .container {
     position: relative;
     width: 100%;
@@ -44,6 +50,7 @@
   
   
   .contact-form {
+    margin-left: 15%;
     background-color: var(--light-green);
     position: relative;
     border-radius: 25px;
@@ -53,7 +60,7 @@
   
   form {
     padding: 2.3rem 2.2rem;
-    z-index: 10;
+
     overflow: hidden;
     position: relative;
   }
@@ -103,7 +110,7 @@
     font-size: 0.9rem;
     font-weight: 400;
     pointer-events: none;
-    z-index: 1000;
+
     transition: 0.5s;
   }
   
@@ -140,7 +147,7 @@
     padding: 0 0.4rem;
     color: transparent;
     pointer-events: none;
-    z-index: 500;
+
   }
   
   .input-container span:before,
@@ -195,6 +202,13 @@
       left: initial;
       right: 70px;
     }
+
+    .contact-form {
+      margin: 2%;
+      width: 45%;
+      height: 600px;
+    }
+  
   
     .square {
       transform: translate(140%, 43%);
@@ -221,6 +235,13 @@
       padding: 1.5rem;
     }
   
+
+    .contact-form {
+      margin: 2%;
+      width: 96%;
+      height: 490px;
+    }
+
     .contact-info:before {
       display: none;
     }
