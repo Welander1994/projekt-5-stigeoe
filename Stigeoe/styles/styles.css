@@ -215,7 +215,7 @@ header nav ul li a.active,
 
 .cover-img {
     height: 300px;
-    background: linear-gradient(0deg, rgba(2, 2, 2, 0.7), rgba(2, 2, 2, 0.7)), url(/Stigeoe/img/cover.jpg);
+    background: linear-gradient(0deg, rgba(2, 2, 2, 0.7), rgba(2, 2, 2, 0.7)), url(/Stigeoe//img/jbanner-forside.png);
     background-position: 50% 65%;
     background-size: cover;
     display:flex ;
