@@ -268,7 +268,7 @@ header nav ul li a.active,
 }
 
 .event-img1 {
-    background-image: url(.jpg);
+    background-image: url(/Stigeoe//img/juleevent.png);
     background-position: center;
     background-size: cover;
     height: 400px;
@@ -278,7 +278,7 @@ header nav ul li a.active,
    
 }
 .event-img2 {
-    background-image: url(/Stigeoe/img/bær.jpg);
+    background-image: url(/Stigeoe/img/drageevent.png);
     background-position: center;
     background-size: cover;
     height: 400px;
@@ -288,7 +288,7 @@ header nav ul li a.active,
    
 }
 .event-img3 {
-    background-image: url(/Stigeoe/img/bær.jpg);
+    background-image: url(/Stigeoe/img/påskeevent.png);
     background-position: center;
     background-size: cover;
     height: 400px;
