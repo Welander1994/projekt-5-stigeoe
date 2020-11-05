@@ -685,13 +685,6 @@ header .logo {
         padding-left: 2%;
     }
 
-    .event {
-        padding-top: 6%;
-        border-top: 2px solid  var(--light-yellow);
-        max-height: 500px;
-        padding-bottom: 3%;
-
-    }
     
     .event h2 {
         max-width: 375px;
