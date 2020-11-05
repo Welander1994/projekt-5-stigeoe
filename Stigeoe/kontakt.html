@@ -1,168 +1,171 @@
 <!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width , initial-scale=1.0">
+<html lang="da">
 
 <head>
-    <meta charset="UFT-8">
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="javascript.js" defer></script>
-    <script src="/Stigeoe/transition.js" defer></script>
-    <script src="https://kit.fontawesome.com/9d426a8111.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="/Stigeoe/img/stigeoe-icon.png" alt="icon af stige oe">
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-    <title>Stige Ø</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<link rel="stylesheet" href="/Stigeoe/styles/styles.css">
+	<script src="javascript.js" defer></script>
+	<script src="/Stigeoe/transition.js" defer></script>
+	<script src="https://kit.fontawesome.com/9d426a8111.js" crossorigin="anonymous"></script>
+	<link rel="icon" href="/Stigeoe/img/logo.png">
+	<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+	<title>Galleri</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <li><a href="/Stigeoe/forside.html" class="active" onclick="transitionForside()">Stige Ø</a></li>
-        </div>
-
-        <nav id="toggle1">
-            <ul>
-                <li><a href="/Stigeoe/forside.html" onclick="transitionForside()">Forside</a></li>
-                <li><a href="/Stigeoe/formular.html" onclick="transitionBooking()">Booking</a></li>
-                <li><a href="/Stigeoe/kontakt.html" onclick="transitionKontakt()">Kontakt</a></li>
-                <li><a href="/Stigeoe/galleri.html" onclick="transitionGalleri()">Galleri</a></li>
-                <li><a href="/Stigeoe/kort.html" onclick="transitionKort()">Kort</a></li>
-                <li><a href="/Stigeoe/historie.html" onclick="transitionHistorie()">historie</a></li>
-                <li><a href="/Stigeoe/natur.html" onclick="transitionNatur()">natur</a></li>
-                <li><a href="/Stigeoe/fremtid.html" onclick="transitionFremtid()">fremtid</a></li>
-
-
-            </ul>
-        </nav>
-        <div class="menu-toggle" onclick="burgerMenu()"><i class="fas fa-bars"></i></div>
-    </header>
-
-    <div class="content">
-
-        <div class="transition transition-1 is-active">
-            <h1 id="transitionText">Kontakt</h1>
-        </div>
-
-        <div class="cover-img">
-            <h3>Stige ø = <span id="ordSlider"></span> </h3>
-        </div>
+	<header>
+		<div class="logo">
+			<a href="/Stigeoe/forside.html" class="active" onclick="transitionForside()">Stige Ø</a>
+		</div>
+		<nav id="toggle1">
+			<ul>
+				<li><a href="/Stigeoe/forside.html" onclick="transitionForside()">Forside</a></li>
+				<li><a href="/Stigeoe/formular.html" onclick="transitionBooking()">Booking</a></li>
+				<li><a href="/Stigeoe/kontakt.html" onclick="transitionKontakt()">Kontakt</a></li>
+				<li><a href="/Stigeoe/galleri.html" onclick="transitionGalleri()">Galleri</a></li>
+				<li><a href="/Stigeoe/kort.html" onclick="transitionKort()">Kort</a></li>
+				<li><a href="/Stigeoe/historie.html" onclick="transitionHistorie()">Øens historie</a></li>
+				<li><a href="/Stigeoe/natur.html" onclick="transitionNatur()">Øens natur</a></li>
+				<li><a href="/Stigeoe/fremtid.html" onclick="transitionFremtid()">Øens fremtid</a></li>
+				<li><a href="/Stigeoe/faq.html" onclick="transitionFAQ()">FAQ</a></li>
 
 
-		
-        	<h1>Kontakt os</h1>
-				<div class="kontakt">
+			</ul>
+		</nav>
+		<div class="menu-toggle" onclick="burgerMenu()"><i class="fas fa-bars"></i></div>
+	</header>
+
+	<div class="content">
+
+		<div class="transition transition-1 is-active">
+			<h1 id="transitionText">Kontakt</h1>
+		</div>
+
+
+		<h1>Kontakt os</h1>
+
+		<div class="undertekstfelt">
+			<div class="kontakt">
 				<h2>Naturvejleder</h2>
-				<div  class="kontaktinfo">
+				<div class="kontaktinfo">
 					<div class="kontakt-left">
-						<p>Navn:</p> 
-						<p>Tlf:</p> 
-						<p>Email:</p> 
+						<p>Navn:</p>
+						<p>Tlf:</p>
+						<p>E-mail:</p>
 					</div>
 					<div>
-		   				<p>Rikke Molin</p>
-		   				<p>30 32 56 41</p>
-		 				<p>naturvejleder@fjordensdag.dk</p>
+						<p>Rikke Molin</p>
+						<p>30 32 56 41</p>
+						<p>naturvejleder@fjordensdag.dk</p>
 					</div>
 				</div>
-	
+
 				<h2>Booking af shelter</h2>
-				<div  class="kontaktinfo">
+				<div class="kontaktinfo">
 					<div class="kontakt-left">
-						<p>Navn:</p> 
-						<p>Tlf:</p> 
-						<p>Email:</p> 
+						<p>Navn:</p>
+						<p>Tlf:</p>
+						<p>E-mail:</p>
 					</div>
 					<div>
-		   				<p>Sussi Jensen</p>
-		   				<p>65 51 27 26</p>
-		 				<p>ksj@odense.dk</p>
+						<p>Sussi Jensen</p>
+						<p>65 51 27 26</p>
+						<p>ksj@odense.dk</p>
 					</div>
 				</div>
-	
+
 				<h2>Odense Kommune</h2>
-				<p><b>Har du spørgsmål pm fremtidsplanerne for stige ø?</b> <br> Kontakt Natur, Miljø og Trafik, Odense Slot, Nørregade 36-38, Indgang M <br> 5000 Odense C, Dukan også henvende dig direkte til 	</p>
-			
+				<p><b>Har du spørgsmål pm fremtidsplanerne for Stige Ø?</b></p>
+				<p>Kontakt Natur, Miljø og Trafik, Odense Slot, Nørregade 36-38, Indgang M 5000 Odense C. Du kan også
+					henvende dig direkte til </p>
+
 				<p>Programchef:</p>
-				<div  class="kontaktinfo">
+				<div class="kontaktinfo">
 					<div class="kontakt-left">
-						<p>Navn:</p> 
-						<p>Email:</p> 
+						<p>Navn:</p>
+						<p>E-mail:</p>
 					</div>
 					<div>
-		   				<p>Birthe Papsø</p>
-		 				<p>bpa@odense.dk</p>
+						<p>Birthe Papsø</p>
+						<p>bpa@odense.dk</p>
 					</div>
 				</div>
-		
-				<p>projektleder for aktiviteter:</p>
-				<div  class="kontaktinfo">
+
+				<p>Projektleder for aktiviteter:</p>
+				<div class="kontaktinfo">
 					<div class="kontakt-left">
-						<p>Navn:</p> 
-						<p>Email:</p> 
+						<p>Navn:</p>
+						<p>E-mail:</p>
 					</div>
 					<div>
-		   				<p>Birgit Bjerne Laursen</p>
-		 				<p>fa@odenserenovation.dk</p>
+						<p>Birgit Bjerne Laursen</p>
+						<p>fa@odenserenovation.dk</p>
 					</div>
 				</div>
-		
-					<p>projektleder for fysisk omdannelse:</p>
-				<div  class="kontaktinfo">
+
+				<p>Projektleder for fysisk omdannelse:</p>
+				<div class="kontaktinfo">
 					<div class="kontakt-left">
-						<p>Navn:</p> 
-						<p>Email:</p> 
+						<p>Navn:</p>
+						<p>E-mail:</p>
 					</div>
 					<div>
-		   				<p>Jacob Juhl Harberg</p>
-		 				<p>jajh@odense.dk</p>
+						<p>Jacob Juhl Harberg</p>
+						<p>jajh@odense.dk</p>
 					</div>
 				</div>
-			
-					<p>Entrepriseleder:</p>
-				<div  class="kontaktinfo">
+
+				<p>Entrepriseleder:</p>
+				<div class="kontaktinfo">
 					<div class="kontakt-left">
-						<p>Navn:</p> 
-						<p>Email:</p> 
+						<p>Navn:</p>
+						<p>E-mail:</p>
 					</div>
 					<div>
-		   				<p>Michael Theilman</p>
-		 				<p>Mthe@odense.dk</p>
+						<p>Michael Theilman</p>
+						<p>Mthe@odense.dk</p>
 					</div>
 				</div>
-			<h2>Odense renovation</h2>
-			<p> <b>Spørgsmål om ting i landskabet</b><br> Hvis du under dit besøg på stige ø bliver opmærksom på nye og <br>forklarlige levn fra øens tid som losseplads, er du altid velkommen til at <br> kontakte Odense Renovationsselskab A/S, Snapindvej 21, 5200 Odense V. <br> Du kan også henvende dig direkte til: </p>
-			
-				<div  class="kontaktinfo">
+				<h2>Odense renovation</h2>
+				<p> <b>Spørgsmål om ting i landskabet</b></p>
+				<p>Hvis du under dit besøg på Stige Ø bliver opmærksom på nye og
+					uforklarlige levn fra øens tid som losseplads, er du altid velkommen til at kontakte Odense
+					Renovationsselskab A/S, Snapindvej 21, 5200 Odense V. <br> Du kan også henvende dig direkte til:
+				</p>
+
+				<div class="kontaktinfo">
 					<div class="kontakt-left">
-						<p>Navn:</p> 
-						<p>Tlf:</p> 
-						<p>Email:</p> 
+						<p>Navn:</p>
+						<p>Tlf:</p>
+						<p>E-mail:</p>
 					</div>
 					<div>
-		   				<p>Jan E. Henriksen</p>
-		   				<p>30 35 97 11</p>
-		 				<p>jeh@odenserenovation.dk</p>
+						<p>Jan E. Henriksen</p>
+						<p>30 35 97 11</p>
+						<p>jeh@odenserenovation.dk</p>
 					</div>
 				</div>
-			
-		
-				<div  class="kontaktinfo">
+
+				<p>Eller:</p>
+				<div class="kontaktinfo">
 					<div class="kontakt-left">
-						<p>Navn:</p> 
-						<p>Tlf:</p> 
-						<p>Email:</p> 
+						<p>Navn:</p>
+						<p>Tlf:</p>
+						<p>E-mail:</p>
 					</div>
 					<div>
-		   				<p>Finn Andersen</p>
-		   				<p>63 18 90 01</p>
-		 				<p>fa@odenserenovation.dk</p>
+						<p>Finn Andersen</p>
+						<p>63 18 90 01</p>
+						<p>fa@odenserenovation.dk</p>
 					</div>
 				</div>
-			
-   		 </div>
-    <div class="footer">
-        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-    </div>
+			</div>
+		</div>
+		<div class="footer">
+			<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+		</div>
 
 </body>
 

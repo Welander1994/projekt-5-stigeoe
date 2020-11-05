@@ -14,7 +14,6 @@
 	
   }
 
-
   /*styling for the scrollbar*/
   ::-webkit-scrollbar {
     width: 10px;
@@ -102,7 +101,7 @@ header ul a {
     color: var(--white);
 }
 
-.logo li a {
+.logo a {
     text-decoration: none;
     color: var(--white);
 }
@@ -221,7 +220,7 @@ header nav ul li a.active,
 .content h1 {
     font-family: var(--h1);
     font-size: 4rem;
-    padding-left: 5%;
+
 }
 
 .cover-img {
@@ -238,6 +237,7 @@ header nav ul li a.active,
 .cover-img h3 {
   position: absolute;
   left: 45%;
+  text-shadow: 4px 4px #2B2129;
 }
 
 .standardtekstfelt {
@@ -432,7 +432,6 @@ header nav ul li a.active,
         grid-template-rows: auto;
         grid-gap: 10px;
         grid-template-areas: 
-        "gallery-h1 gallery-h1 gallery-h1 "
         "img-1 img-2 img-3 "
         "img-4 img-6 img-3 "
         "img-7 img-5 img-5" ;
@@ -448,11 +447,6 @@ header nav ul li a.active,
     }
     
     /*Billederne styling*/
-    .index-gallery h1{
-        grid-area: gallery-h1;
-        margin-bottom: 0;
-        margin-top: 1rem;
-    }
 
     .index-gallery .img-1{
         grid-area: img-1;
@@ -484,60 +478,26 @@ header nav ul li a.active,
         grid-area: img-7;
         background-image: url("../img/img-7.jpg");
     }
+    .gallery-text{
+        display: flex;
+        align-items: center;
+        margin: 2vw;
+        padding-top: 6%;
+        
+    }
     .gallery-text img{
-        height: 20%;
-        width: 20%;
-        padding-left: 2.5%;
+        height: 10%;
+        width: 10%;
+        transform: rotate(-15deg);
     }
     .gallery-text p{
         font-family: rock salt;
-        font-size: 2rem;
+        font-size: 2vw;
+        padding-left: 20px;  
     }
-    /* Galleri billede title*/
-    .gallery-img div {
-        width: 100%;
-        height: 100%;
-        background-color: #000000;
-        opacity: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .responsiv-pil{
+        display: none;
     }
-
-    .gallery-img a {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 19px;
-        color: #ffffff;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
-    .gallery-img div:hover {
-        opacity: 0.8;
-        transition: all ease-in-out 100ms;
-    }
-    /*Popup vindue - onclick*/
-    .img-window{
-        width: 100vw;
-        height: 100vh;
-        background-color:rgba(0, 0, 0, 1) ;
-        position: fixed;
-        top: 0;
-        left: 0;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 100;
-    }
-        /*Popup billede */
-        .img-window img{
-            max-width: 80vw;
-            max-height: 80vh;
-            z-index: 200;
-        }
-
-
-
 /*FAQ-styyyyyyyyyyylessssss*/
 /* fjernet understreg ved klik af logo i hjørnet, Farven skifter stadig */
 .active{
@@ -703,10 +663,10 @@ header .logo {
         width: 100%;
     }
 
+
     .cover-img {
       
         height: 200px;
-   
         
     }
 
@@ -714,6 +674,7 @@ header .logo {
         font-size: 1rem;
         position: absolute;
         left: 40%;
+	
       }
     .content h1 {
         font-family: var(--h1);
@@ -739,7 +700,7 @@ header .logo {
     .event-img {
         padding: 0;
         margin: 0;
-        background-image: url(/Stigeoe/img/bær.jpg);
+        background-image: url(/Stigeoe//img/juleevent.png);
         background-position: center;
         background-size: cover;
         order: -1;
@@ -750,6 +711,34 @@ header .logo {
         z-index: -999;
     }
     
+	.event-img2 {
+        padding: 0;
+        margin: 0;
+        background-image: url(/Stigeoe/img/drageevent.png);
+        background-position: center;
+        background-size: cover;
+        order: -1;
+        height: 500px;
+        width: 100%;
+        position: relative;
+        padding-bottom: 2%;
+        z-index: -999;
+    }
+	
+	.event-img3 {
+        padding: 0;
+        margin: 0;
+        background-image: url(/Stigeoe/img/påskeevent.png);
+        background-position: center;
+        background-size: cover;
+        order: -1;
+        height: 500px;
+        width: 100%;
+        position: relative;
+        padding-bottom: 2%;
+        z-index: -999;
+    }
+	
     .indhold {
         max-height: 500px;
         display: flex;
@@ -781,7 +770,6 @@ header .logo {
     .index-gallery{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
-        "gallery-h1 gallery-h1 gallery-h1"
         "img-1 img-2 img-3 "
         "img-4 img-5 img-3"
         "img-6 img-7"
@@ -790,6 +778,38 @@ header .logo {
      .index-gallery h1{
         padding-left: 0;
     }
+
+    .gallery-text{
+        display: flex;
+        align-items: center;
+        margin: 2vw;
+        padding-top: 3%;
+    }
+
+    .gallery-text img{
+        transform: rotate(56deg) scaleX(-1);
+        padding-top: 20%;
+        padding-left: 6%;
+    
+    }
+    .normal-pil{
+        display: none;
+    }
+    .gallery-text p{
+        font-family: rock salt;
+        font-size: 3vw;
+        padding-left: 20px;  
+       
+    }
+    .responsiv-pil{
+        display: block;
+    }
+
+    .gallery-text img{
+        height: 15%;
+        width: 15%;
+    }
+   
 }
 
 @media (max-width: 500px){
@@ -809,7 +829,6 @@ header .logo {
            
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas:
-                "gallery-h1 gallery-h1 "
                 "img-1 img-2 "
                 "img-3 img-4 "
                 "img-5 img-6 "
@@ -820,13 +839,21 @@ header .logo {
         width: 100%;
         height: 200px;
     }
+
+    .gallery-text img{
+        padding-left: 6%;
+    }
+
+    .gallery-text p{
+        font-size: 4vw; 
+    }
+    
 }
     @media (max-width: 400px){
     
         .index-gallery{ 
                 grid-template-columns: repeat(1, 1fr);
                 grid-template-areas:
-                    "gallery-h1 "
                     "img-1  "
                     "img-2 "
                     "img-3  "
