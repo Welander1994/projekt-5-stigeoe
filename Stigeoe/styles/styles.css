@@ -871,7 +871,6 @@ header .logo {
         .imgkort {
             width: 70%;
         }
-<<<<<<< Updated upstream
       
     }
 
@@ -889,6 +888,4 @@ header .logo {
     .sommerfugleflex {
         display: flex;
         flex-direction: column;
-=======
->>>>>>> Stashed changes
     }
