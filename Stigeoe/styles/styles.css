@@ -282,7 +282,7 @@ header nav ul li a.active,
 }
 
 .event {
-    padding-top: 2%;
+    padding-top: 5%;
     border-top: 2px solid  var(--light-yellow);
     max-height: 500px;
     margin: 5%;
