@@ -215,7 +215,7 @@ header nav ul li a.active,
 
 .cover-img {
     height: 300px;
-    background: linear-gradient(0deg, rgba(2, 2, 2, 0.7), rgba(2, 2, 2, 0.7)), url(/Stigeoe/img/cover.jpg);
+    background: linear-gradient(0deg, rgba(2, 2, 2, 0.7), rgba(2, 2, 2, 0.7)), url(/Stigeoe//img/banner-forside.png);
     background-position: 50% 65%;
     background-size: cover;
     display:flex ;
@@ -231,12 +231,14 @@ header nav ul li a.active,
 
 .standardtekstfelt {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
 }
 
 
 
 .standardtekstfelt img {
+    padding-bottom: 5%;
+    padding-right: 10%;
     width: 15%;
  
 }
