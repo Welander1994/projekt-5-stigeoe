@@ -93,12 +93,12 @@ window.onload = () => {
 
 
 function sendShelter() {
-    document.getElementById("messageshelter").innerHTML = "sendt";
+    document.getElementById("messageshelter").innerHTML = "Din besked er nu sendt!";
     console.log("send");
 }
 
 
 function sendGuide() {
-    document.getElementById("messageguide").innerHTML = "sendt";
+    document.getElementById("messageguide").innerHTML = "Din besked er nu sendt!";
     console.log("send");
 }
