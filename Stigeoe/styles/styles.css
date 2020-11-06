@@ -268,7 +268,7 @@ header nav ul li a.active,
 }
 
 footer {
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
