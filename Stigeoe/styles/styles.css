@@ -342,11 +342,14 @@ footer a:hover {
 
 .indhold img {
     max-width: 25%;
+
 }
 
 .tesk {
-    width: 40%;
+    width: 50%;
+    padding: 35px 150px 0 0 ;
 }
+
 
 
 .button {
@@ -395,7 +398,6 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     padding-left: 5%;
-	
 
 }
 
@@ -750,8 +752,24 @@ header .logo {
         flex-direction: column;
     }
 
-
-
+    
+    .venstrebilleder {
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        width: 20%;
+        padding: 5%;
+        position: relative;
+        position: center;
+    }
+    .historie-side{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        height: 5%;
+        width: 16%;
+    }
+    
     .tesk {
         width: 100%;
     }
@@ -857,6 +875,13 @@ header .logo {
         margin-top: 15px;
 
       }
+      .venstrebilleder {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 5%;
+    }
 
       
     }
@@ -893,17 +918,6 @@ header .logo {
             width: 70%;
         }
 
-    }
-
-
-    .venstrebilleder {
-        background-position: center;
-        background-size: cover;
-        height: 300px;
-        width: 20%;
-        padding: 5%;
-        position: relative;
-        position: center;
     }
 
     .sommerfugleflex {
