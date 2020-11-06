@@ -403,6 +403,7 @@ footer a:hover {
 
 
 /* Kontakt siden */
+
 .kontaktinfo{
 	display: flex;
 	margin: 0px;
@@ -414,6 +415,7 @@ footer a:hover {
 
 .kontakt h2{
 	margin-left: 10px;
+	margin-top: 20px;
 }
 .kontakt p{
     margin-left: 10px;
@@ -421,6 +423,10 @@ footer a:hover {
 }
 .kontakt-left{
 	margin-right: 10px;
+}
+.kontakt-titel{
+	margin-bottom: 0;	
+	
 }
 
 /*Galleri siden*/
