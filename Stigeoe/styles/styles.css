@@ -759,12 +759,17 @@ header .logo {
 
     footer {
         display:flex;
-        position:absolute;
+        position: relative;;
         bottom:0;
         left:0;
-        height: 10%;
+        height: 100px;
         width: 100%;
         background-color: var(--light-yellow);
+        z-index: -10;
+    }
+
+    #footer-gallery {
+        margin-top: 650px;
     }
 
     footer a  {
@@ -857,7 +862,24 @@ header .logo {
         margin-top: 15px;
 
       }
-
+      #footer-gallery {
+        margin-top: 1820px;
+    }
+    #footer-kontakt {
+        margin-top: 650px;
+    }
+    #footer-faq {
+        margin-top: 334px;
+    }
+    #footer-fremtid {
+        margin-top: 103px;
+    }
+    #footer-kort {
+        margin-top: 58px;
+    }
+    #footer-natur {
+        margin-top: 2760px;
+    }
       
     }
     @media (max-width: 400px){
