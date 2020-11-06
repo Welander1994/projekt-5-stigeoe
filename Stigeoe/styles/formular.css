@@ -116,7 +116,7 @@
 }
 
 .item1 p{
-  padding-bottom: 5rem;
+  padding-bottom: 5%;
 }
 
   textarea.input {
@@ -240,10 +240,24 @@
 
     .contact-form {
       margin: 2%;
-      width: 45%;
+      width: 100%;
       height: 600px;
+    
+    }
+
+    #item1 p {
+      padding-bottom: 11%;
     }
   
+  .item1 {
+    margin-left: 4%;
+    width: 40%;
+  }
+
+  .item1 img{
+
+    width: 100%;
+  }
   
     .square {
       transform: translate(140%, 43%);
@@ -263,6 +277,9 @@
     .social-media {
       padding: 1.5rem 0 0 0;
     }
+    #main-booking {
+      padding-left: 5%;
+      }
   }
   
   @media (max-width: 480px) {
@@ -274,7 +291,8 @@
     .contact-form {
       margin: 2%;
       width: 96%;
-      height: 490px;
+      height: 520px;
+    
     }
 
     .contact-info:before {
@@ -317,6 +335,22 @@
   
     .btn {
       padding: 0.45rem 1.2rem;
+    }
+
+    #main-booking {
+      padding-left: 0%;
+      }
+
+    .item1 {
+      width: 100%;
+      padding:0;
+      margin: 0;
+      padding-bottom: 5%;
+     
+    }
+
+    .item1 img {
+      width: 100%;
     }
   }
   
