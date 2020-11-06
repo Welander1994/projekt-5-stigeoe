@@ -277,9 +277,7 @@ footer {
     width: 15%;
     background-color: var(--light-green);
     z-index:100;
-
 }
-
 footer a {
     font-size: 2rem;
     text-decoration: none;
@@ -759,16 +757,17 @@ header .logo {
   
 
     footer {
-        position: relative;
-        bottom: 0;
-        left: 0;
+        display:flex;
+        position:absolute;
+        bottom:0;
+        left:0;
         height: 10%;
         width: 100%;
         background-color: var(--light-yellow);
     }
 
-    footer a {
-        padding: 5% 0 5% 0;
+    footer a  {
+        padding: 0;
     }
 
     .index-gallery{
