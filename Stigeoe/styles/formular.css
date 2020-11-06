@@ -43,10 +43,8 @@
 
 
   .container {
-   
     position: relative;
-    width: 100%;
-    min-height: 100vh;
+    width: 400px;
     padding: 2rem;
     overflow: hidden;
     display: flex;
@@ -57,11 +55,10 @@
   
   
   .contact-form {
-    
-    margin-left: 15%;
     background-color: var(--light-green);
     position: relative;
     display: inline-flex;
+    width: 400px;
   }
   
   
@@ -100,6 +97,27 @@
   }
   
 
+
+.item1 {
+  width: 400px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+  margin-left: 15%;
+}
+
+.item1 img{
+  width: 400px;
+  height: auto;
+}
+
+.item1 p{
+  padding-bottom: 5rem;
+}
 
   textarea.input {
     padding: 0.8rem 1.2rem;
