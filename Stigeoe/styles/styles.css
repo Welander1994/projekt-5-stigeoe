@@ -627,6 +627,33 @@ footer a:hover {
 
     }
 
+    .imgkort {
+        width: 50%;
+    }
+
+    #footer-gallery {
+        margin-top: 1820px;
+    }
+    #footer-kontakt {
+        margin-top: 650px;
+    }
+    #footer-faq {
+        position: fixed;
+        margin-top: 505px;
+    }
+    #footer-fremtid {
+        margin-top: 147px;
+    }
+    #footer-kort {
+        margin-top: 49px;
+    }
+    #footer-natur {
+        margin-top: 2760px;
+    }
+    #footer-historie {
+        margin-top: 4400px;
+    }
+
 header .logo {
     padding-left: 1%;
     padding-top: 20px;
@@ -844,6 +871,8 @@ header .logo {
         font-size: 1rem;
     }
 
+ 
+
     .cover-img h3 {
         font-size: 1rem;
         position: absolute;
@@ -887,6 +916,7 @@ header .logo {
         margin-top: 650px;
     }
     #footer-faq {
+        position: relative;
         margin-top: 334px;
     }
     #footer-fremtid {
