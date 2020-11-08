@@ -342,6 +342,11 @@ footer a:hover {
     border-bottom: 2px solid var(--light-yellow);
 }
 
+.historie-side {
+    width: 150px;
+    padding: 2%
+}
+
 .venstrebilleder {
    
    width: 150px;
@@ -584,7 +589,7 @@ footer a:hover {
 
 .underundertekstfelt {
     padding-top: 2%;
-    border-top: 2px solid var(--light-yellow);
+    
     max-height: 500px;
     margin: 5%;
     margin-left: 0%;
@@ -661,7 +666,7 @@ footer a:hover {
         margin-top: 2760px;
     }
     #footer-historie {
-        margin-top: 4400px;
+        margin-top: 6000px;
     }
 
 header .logo {
@@ -806,8 +811,7 @@ header .logo {
         display: flex;
         margin-left: auto;
         margin-right: auto;
-        height: 5%;
-        width: 16%;
+   
     }
     
     .tesk {
@@ -940,6 +944,9 @@ header .logo {
     }
     #footer-natur {
         margin-top: 2760px;
+    }
+    #footer-historie {
+        margin-top: 5400px;
     }
       
     }
