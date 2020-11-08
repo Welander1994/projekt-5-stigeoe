@@ -337,12 +337,24 @@ footer a:hover {
 .indhold {
     max-height: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid var(--light-yellow);
 }
 
-.indhold img {
-    max-width: 10rem;
+.venstrebilleder {
+   
+   width: 150px;
+   height: 150px;
+  
 }
+
+.sommerfugleflex img {
+    padding: 2%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10%;
+ }
 .tesk {
     width: 50%;
     padding: 35px 0px 0 0 ;
@@ -772,9 +784,15 @@ header .logo {
     }
 
     .indhold {
-        max-height: 500px;
+       
         display: flex;
         flex-direction: column;
+    }
+
+    .indhold img {
+        padding-top: 5%;
+        width: 30%;
+        height: 30%;
     }
 
     .indhold .sommerfugleflex {
