@@ -71,7 +71,7 @@ window.onload = () => {
         transition_el.classList.remove("is-active");
 
 
-    }, 700);
+    }, 600);
 
     for (let i = 0; i < anchors.length; i++) {
         const anchor = anchors[i];
@@ -85,7 +85,7 @@ window.onload = () => {
             setTimeout(() => {
                 window.location.href = target;
                 console.log(target);
-            }, 700)
+            }, 600)
         });
     }
 
