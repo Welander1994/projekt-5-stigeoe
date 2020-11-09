@@ -57,7 +57,7 @@
       <div class="contact-form">
 
 
-        <form action="/Stigeoe/formular.html" autocomplete="off">
+        <form name="myForm1" autocomplete="off">
           <h3 class="title">Book en shelterpladsen her</h3>
           <p>Vi bestræber os på at svare inden for 2-5 hverdage</p>
           <div class="input-container">
@@ -76,7 +76,7 @@
             <textarea name="message" class="input" placeholder="Besked"></textarea>
           </div>
 
-          <input type="submit" value="Send" class="btn" onclick="event.preventDefault(); sendShelter()" />
+          <input type="submit" value="Send" class="btn" onclick="event.preventDefault(); validateShelter();" />
         <span id="messageshelter">&nbsp;</span>
         </form>
       </div>
@@ -90,7 +90,7 @@
       <div class="contact-form">
 
 
-        <form action="/Stigeoe/forside.html" autocomplete="off">
+        <form name="myForm"  autocomplete="off">
           <h3 class="title">Book en guidet tur her</h3>
           <p>Vi bestræber os på at svare inden for 2-5 hverdage</p>
           <div class="input-container">
@@ -109,7 +109,7 @@
             <textarea name="message" class="input" placeholder="Besked"></textarea>
           </div>
 
-          <input type="submit" value="send" class="btn" onclick="sendGuide();"/>
+          <input type="submit" value="send" class="btn" onclick="event.preventDefault(), validateGuide()"/>
         <span id="messageguide">&nbsp;</span>
         </form>
       </div>

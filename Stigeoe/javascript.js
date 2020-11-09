@@ -43,6 +43,7 @@ function transitionKontakt() {
 }
 function transitionGalleri() {
     document.getElementById("transitionText").innerHTML = underMenu[3];
+
 }
 function transitionKort() {
     document.getElementById("transitionText").innerHTML = underMenu[4];
@@ -90,17 +91,36 @@ window.onload = () => {
 
 }
 
-var sendBesked = "Din besked er nu sendt!";
+//booking sidens js//
 
-function sendShelter() {
-    document.getElementById("messageshelter").innerHTML = sendBesked;
-    console.log("send");
+var getAlert = ["Alle felter skal være udfyldt", "Tak for din anmodning. Vi kontakter dig på mail hurtigst muligt" ]
+
+function validateShelter() {
+    var navn = document.forms["myForm1"] ["name"].value;
+    var email = document.forms["myForm1"] ["email"].value;
+    var tel = document.forms["myForm1"] ["phone"].value;
+    var text = document.forms["myForm1"] ["message"].value;
+    if (navn == "", email == "", tel == "", text =="") {
+        alert(getAlert[0])
+
+    }
+    else {
+        alert(getAlert[1])
+    }
 }
 
 
 
+function validateGuide() {
+    var navn = document.forms["myForm"] ["name"].value;
+    var email = document.forms["myForm"] ["email"].value;
+    var tel = document.forms["myForm"] ["phone"].value;
+    var text = document.forms["myForm"] ["message"].value;
+    if (navn == "", email == "", tel == "", text =="") {
+        alert(getAlert[0])
 
-function sendGuide() {
-    document.getElementById("messageguide").innerHTML = sendBesked;
-    console.log("send");
+    }
+    else {
+        alert(getAlert[1])
+    }
 }
