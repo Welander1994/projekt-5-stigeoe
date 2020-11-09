@@ -96,7 +96,9 @@
     transition: 0.3s;
   }
   
-
+.input.input {
+  color: var(--white);
+}
 
 .item1 {
   width: 400px;

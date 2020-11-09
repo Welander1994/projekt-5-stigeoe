@@ -39,7 +39,7 @@ var x = setInterval(function () {
     // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var timer = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-
+    
 
     // Output the result in an element with id="countdown"
     document.getElementById("countdown").innerHTML = days + "d " + timer + "t ";

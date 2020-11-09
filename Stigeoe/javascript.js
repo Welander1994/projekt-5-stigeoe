@@ -29,7 +29,7 @@ for (i = 0; i < acc.length; i++) {
 
 
 
-var underMenu = ["FORSIDE", "BOOKING", "KONTAKT", "GALLERI", "kort", "HISTORIE", "NATUR", "Fremtid", "FAQ"];
+var underMenu = ["FORSIDE", "BOOKING", "KONTAKT", "GALLERI", "KORT", "HISTORIE", "NATUR", "Fremtid", "FAQ"];
 
 
 function transitionForside() {
@@ -43,7 +43,6 @@ function transitionKontakt() {
 }
 function transitionGalleri() {
     document.getElementById("transitionText").innerHTML = underMenu[3];
-
 }
 function transitionKort() {
     document.getElementById("transitionText").innerHTML = underMenu[4];
@@ -91,14 +90,17 @@ window.onload = () => {
 
 }
 
+var sendBesked = "Din besked er nu sendt!";
 
 function sendShelter() {
-    document.getElementById("messageshelter").innerHTML = "Din besked er nu sendt!";
+    document.getElementById("messageshelter").innerHTML = sendBesked;
     console.log("send");
 }
 
 
+
+
 function sendGuide() {
-    document.getElementById("messageguide").innerHTML = "Din besked er nu sendt!";
+    document.getElementById("messageguide").innerHTML = sendBesked;
     console.log("send");
 }
