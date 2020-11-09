@@ -30,6 +30,9 @@
     background: var(--dark-green);
   }
 
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:var(--white);
+  }
 body {
     margin: 0;
     padding: 0;
