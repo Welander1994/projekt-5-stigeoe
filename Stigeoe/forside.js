@@ -37,13 +37,13 @@ var x = setInterval(function () {
     var distance = countDownDate - now;
 
     // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var dage = Math.floor(distance / (1000 * 60 * 60 * 24));
     var timer = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     
 
     // Output the result in an element with id="countdown"
-    document.getElementById("countdown").innerHTML = days + "d " + timer + "t ";
-
+    document.getElementById("countdown").innerHTML = dage + "d " + timer + "t ";
+	
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
