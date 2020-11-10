@@ -28,19 +28,25 @@ var countdownDates = ["dec 1, 2020 13:00:0", "feb 20, 2021 10:00:0", "apr 04, 20
 
 function countdown(date, htmlElementID) {
 
-    // Update the count down every 5th minute
+    // Update the count down every 1 second
     let setInteral = setInterval(function () {
+		
         // Set the date we're counting down to, from a string
         let countDownDate = new Date(date).getTime();
+		
         // Get today's date and time
         let now = new Date().getTime();
+		
         // Find the distance between now and the count down date
         let distance = countDownDate - now;
+		
         // Time calculations for days and hours 
-        let dage = Math.floor(distance / (1000 * 60 * 60 * 24));
-        let timer = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        let day = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let hour = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		
         // Output the result in an element with id="countdown"
-        document.getElementById(htmlElementID).innerHTML = dage + "d " + timer + "t ";
+        document.getElementById(htmlElementID).innerHTML = day + "d " + hour + "t ";
+		
         // If the count down is over, write some text
         if (distance < 0) {
             clearInterval(setInteral);
