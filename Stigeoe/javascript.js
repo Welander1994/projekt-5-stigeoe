@@ -28,7 +28,7 @@ for (i = 0; i < acc.length; i++) {
 
 
 
-
+/*transition kode*/
 var underMenu = ["FORSIDE", "BOOKING", "KONTAKT", "GALLERI", "KORT", "HISTORIE", "NATUR", "Fremtid", "FAQ"];
 
 
@@ -79,7 +79,7 @@ window.onload = () => {
         anchor.addEventListener("click", e => {
             e.preventDefault();
             let target = e.target.href;
-
+           
             transition_el.classList.add("is-active");
 
             setTimeout(() => {
