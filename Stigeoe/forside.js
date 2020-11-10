@@ -24,85 +24,34 @@ ordSlider_elem = document.getElementById("ordSlider"); ordSliderSlide();
 
 //Countdowns
 
-// Set the date we're counting down to
-var countDownDate = new Date("dec 1, 2020 13:00:0").getTime();
+// sets an Array of strings for dates
+var countdownDates = ["dec 1, 2020 13:00:0", "feb 20, 2021 10:00:0", "apr 04, 2021 10:00:0"];
 
-// Update the count down every 1 second
-var x = setInterval(function () {
-
-    // Get today's date and time
-    var now = new Date().getTime();
-
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
-
-    // Time calculations for days, hours, minutes and seconds
-    var dage = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var timer = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    
-
-    // Output the result in an element with id="countdown"
-    document.getElementById("countdown").innerHTML = dage + "d " + timer + "t ";
+function countdown(date, htmlElementID) {
 	
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("countdown").innerHTML = "Datoen for dette event er desvære overskredet";
-    }
-}, 1000);
+	// Update the count down every 5th minute
+    let setInteral = setInterval(function () {
+        // Set the date we're counting down to, from a string
+		let countDownDate = new Date(date).getTime();
+		// Get today's date and time
+        let now = new Date().getTime();
+		// Find the distance between now and the count down date
+        let distance = countDownDate - now;
+		// Time calculations for days and hours 
+        let dage = Math.floor(distance / (1000 * 60 * 60 * 24));
+        let timer = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		// Output the result in an element with id="countdown"
+        document.getElementById(htmlElementID).innerHTML = dage + "d " + timer + "t ";
+		// If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(setInteral);
+            document.getElementById(htmlElementID).innerHTML = "Datoen for dette event er desvære overskredet";
+        }
+    }, 1000);
 
-// Set the date we're counting down to
-var countDownDate2 = new Date("feb 20, 2021 10:00:0").getTime();
-
-// Update the count down every 1 second
-var y = setInterval(function () {
-
-    // Get today's date and time
-    var now = new Date().getTime();
-
-    // Find the distance between now and the count down date
-    var distance = countDownDate2 - now;
-
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var timer = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-
-
-    // Output the result in an element with id="countdown"
-    document.getElementById("countdown2").innerHTML = days + "d " + timer + "t ";
-
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(y);
-        document.getElementById("countdown2").innerHTML = "Datoen for dette event er desvære overskredet";
-    }
-}, 1000);
-
-// Set the date we're counting down to
-var countDownDate3 = new Date("apr 04, 2021 10:00:0").getTime();
-
-// Update the count down every 1 second
-var z = setInterval(function () {
-
-    // Get today's date and time
-    var now = new Date().getTime();
-
-    // Find the distance between now and the count down date
-    var distance = countDownDate3 - now;
-
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var timer = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-
-
-    // Output the result in an element with id="countdown"
-    document.getElementById("countdown3").innerHTML = days + "d " + timer + "t ";
-
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(z);
-        document.getElementById("countdown3").innerHTML = "Datoen for dette event er desvære overskredet";
-    }
-}, 1000);
-
+}
+//The listed array strings
+countdown(countdownDates[0], "countdown");
+countdown(countdownDates[1], "countdown2");
+countdown(countdownDates[2], "countdown3");
 
