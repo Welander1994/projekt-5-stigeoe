@@ -565,7 +565,7 @@ footer a:hover {
 
 .harmonikatekstfelt {
     padding: 0 18px;
-    background-color: none;
+    background-color: var(--white);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -810,7 +810,7 @@ header .logo {
     }
     .venstrebilleder {
         position: relative;
-        position: center;
+        
     }
     .historie-side{
         display: flex;

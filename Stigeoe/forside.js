@@ -1,6 +1,6 @@
 //banner ord slide animation
 let ordSlider_i = 0;
-let ordSlider_array = [" aktiviteternes ø", " familiens ø", " børnenes ø", " den aktives ø", " en tumleplads"];
+let ordSlider_array = [" aktiviteternes ø", " familiens ø", " børnenes ø", " den aktives ø", " en tumleplads", "nissernes ø"];
 let ordSlider_elem;
 
 
