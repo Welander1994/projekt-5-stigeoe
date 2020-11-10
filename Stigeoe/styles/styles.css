@@ -294,10 +294,9 @@ footer a:hover {
 }
 
 .event {
-    padding-top: 5%;
-    border-top: 2px solid  var(--light-yellow);
-    max-height: 500px;
-    margin: 5%;
+    padding-top: 2%;
+    max-height: 1000px;
+    margin: 2%;
 }
 
 .event h2 {
@@ -343,7 +342,7 @@ footer a:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 2px solid var(--light-yellow);
+    
 }
 
 .historie-side {
@@ -586,7 +585,6 @@ footer a:hover {
 
 .undertekstfelt {
     padding-top: 2%;
-    border-top: 2px solid var(--light-yellow);
     max-height: 500px;
     margin: 5%;
 }
@@ -662,16 +660,16 @@ footer a:hover {
         margin-top: 505px;
     }
     #footer-fremtid {
-        margin-top: 147px;
+        margin-top: 56px;
     }
     #footer-kort {
         margin-top: 49px;
     }
     #footer-natur {
-        margin-top: 2760px;
+        margin-top: 2860px;
     }
     #footer-historie {
-        margin-top: 6000px;
+        margin-top: 6900px;
     }
 
 header .logo {
@@ -758,7 +756,7 @@ header .logo {
         background-position: center;
         background-size: cover;
         order: -1;
-        height: 500px;
+       
         width: 100%;
         position: relative;
         padding-bottom: 2%;
@@ -772,7 +770,7 @@ header .logo {
         background-position: center;
         background-size: cover;
         order: -1;
-        height: 500px;
+     
         width: 100%;
         position: relative;
         padding-bottom: 2%;
@@ -786,7 +784,7 @@ header .logo {
         background-position: center;
         background-size: cover;
         order: -1;
-        height: 500px;
+      
         width: 100%;
         position: relative;
         padding-bottom: 2%;
@@ -794,7 +792,7 @@ header .logo {
     }
 
     .indhold {
-       
+        margin-bottom: 15%;
         display: flex;
         flex-direction: column;
     }
@@ -951,7 +949,7 @@ header .logo {
         margin-top: 2760px;
     }
     #footer-historie {
-        margin-top: 5600px;
+        margin-top: 5800px;
     }
       
     }
