@@ -1,4 +1,4 @@
-//banner ord slide animation
+//Banner ord slide animation - inspiration fra http://www.developphp.com/video/JavaScript/Array-Slideshow-Animation-Tutorial 
 let ordSlider_i = 0;
 let ordSlider_array = [" aktiviteternes ø", " familiens ø", " børnenes ø", " den aktives ø", " en tumleplads", "nissernes ø"];
 let ordSlider_elem;
@@ -16,7 +16,6 @@ function ordSliderSlide() {
     ordSlider_elem.innerHTML = "&nbsp" + ordSlider_array[ordSlider_i];
     ordSlider_elem.style.opacity = 1;
     setTimeout('ordSliderNext()', 2000);
-
 }
 
 ordSlider_elem = document.getElementById("ordSlider"); ordSliderSlide();
@@ -28,21 +27,21 @@ ordSlider_elem = document.getElementById("ordSlider"); ordSliderSlide();
 var countdownDates = ["dec 1, 2020 13:00:0", "feb 20, 2021 10:00:0", "apr 04, 2021 10:00:0"];
 
 function countdown(date, htmlElementID) {
-	
-	// Update the count down every 5th minute
+
+    // Update the count down every 5th minute
     let setInteral = setInterval(function () {
         // Set the date we're counting down to, from a string
-		let countDownDate = new Date(date).getTime();
-		// Get today's date and time
+        let countDownDate = new Date(date).getTime();
+        // Get today's date and time
         let now = new Date().getTime();
-		// Find the distance between now and the count down date
+        // Find the distance between now and the count down date
         let distance = countDownDate - now;
-		// Time calculations for days and hours 
+        // Time calculations for days and hours 
         let dage = Math.floor(distance / (1000 * 60 * 60 * 24));
         let timer = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-		// Output the result in an element with id="countdown"
+        // Output the result in an element with id="countdown"
         document.getElementById(htmlElementID).innerHTML = dage + "d " + timer + "t ";
-		// If the count down is over, write some text
+        // If the count down is over, write some text
         if (distance < 0) {
             clearInterval(setInteral);
             document.getElementById(htmlElementID).innerHTML = "Datoen for dette event er desvære overskredet";

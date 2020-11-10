@@ -392,7 +392,7 @@ footer a:hover {
 
 
 
-/*Slider ord - Banner*/
+/*Slider ord - Banner inspiration fra http://www.developphp.com/video/JavaScript/Array-Slideshow-Animation-Tutorial*/
 #ordSlider{
     opacity:0;
     -webkit-transition:opacity 1.0s linear 0s;
